@@ -20,7 +20,7 @@
 
 ### 核心组件
 1.  **主控制器 (Main Controller)**: HKU ATI 自研开发板。
-2.  **电机驱动器 (Motor Driver)**: 深圳智能机器人研究院 (Shenzhen Institute of Artificial Intelligence and Robotics for Society) 开发的 FPGA 4轴电机驱动器。
+2.  **电机驱动器 (Motor Driver)**: 深圳智能机器人研究院 (SZAR) 开发的 FPGA 4电机驱动器。
 
 ### 连接说明
 *   **接口标准**: DB15 接口。
