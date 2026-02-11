@@ -1,0 +1,14 @@
+dualmusclecontroller\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+dualmusclecontroller\stream_buffer.o: C:\Users\zqlin\AppData\Local\Keil_v5\ARM\ARMCOMPLIER506\Bin\..\include\stdint.h
+dualmusclecontroller\stream_buffer.o: C:\Users\zqlin\AppData\Local\Keil_v5\ARM\ARMCOMPLIER506\Bin\..\include\string.h
+dualmusclecontroller\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+dualmusclecontroller\stream_buffer.o: C:\Users\zqlin\AppData\Local\Keil_v5\ARM\ARMCOMPLIER506\Bin\..\include\stddef.h
+dualmusclecontroller\stream_buffer.o: ../Inc/FreeRTOSConfig.h
+dualmusclecontroller\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+dualmusclecontroller\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+dualmusclecontroller\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+dualmusclecontroller\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+dualmusclecontroller\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+dualmusclecontroller\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+dualmusclecontroller\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+dualmusclecontroller\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h

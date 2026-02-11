@@ -1,0 +1,226 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.43.1.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: hku zqling97@outlook.com, hku, LIC=HN0AE-5HDGJ-III5V-PDQF6-N70GQ-QZR0E
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.43.0.0
+Toolchain Path:  C:\Users\zqlin\AppData\Local\Keil_v5\ARM\ARMCOMPLIER506\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.43.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      CMSIS_AGDI.dll V1.33.24.0
+Dialog DLL:      TCM.DLL V1.56.6.0
+ 
+<h2>Project:</h2>
+D:\HipRobotPC_Projects\Projects\STM32Projects\Hip_Robot\DualMuscleController_OS_alpha3.0_DualMotor_FPGA_Gait\DualMuscleController_OS_alpha3.0\DualMuscleController\MDK-ARM\DualMuscleController.uvprojx
+Project File Date:  09/19/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Users\zqlin\AppData\Local\Keil_v5\ARM\ARMCOMPLIER506\Bin'
+Build target 'DualMuscleController'
+compiling freertos.c...
+../HardwareDriver/MotorControl/MotorControl.h(33): warning:  #1-D: last line of file ends without a newline
+  void MotorRetCMDGen(void);
+../HardwareDriver/PID/pid.h(67): warning:  #1-D: last line of file ends without a newline
+   
+../HardwareDriver/IIR_FILTER/IIR.h(27): warning:  #1-D: last line of file ends without a newline
+  void Motor_arm_iir_f32_LP_Group2(void);
+../Inc/wit_IMU.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif /* __WIT_C_SDK_H */
+../Inc/ControllerIMU.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Inc/BandwidthTest.h(711): warning:  #1-D: last line of file ends without a newline
+  };
+../Src/freertos.c(521): warning:  #177-D: variable "Format0"  was declared but never referenced
+  	uint8_t Format0[]={"  B:Block  R:Ready  D:Del  S:Paused  X:Running \r\n"};
+../Src/freertos.c(574): warning:  #177-D: variable "PosCurrentUpLimit"  was declared but never referenced
+  		int32_t PosCurrentUpLimit=CurrentUpperLimit;
+../Src/freertos.c(575): warning:  #177-D: variable "NegCurrentUpLimit"  was declared but never referenced
+  		int32_t NegCurrentUpLimit=-CurrentUpperLimit;
+../Src/freertos.c(583): warning:  #550-D: variable "curPositionIDX"  was set but never used
+  	uint16_t curPositionIDX=0;
+../Src/freertos.c(709): warning:  #177-D: variable "curPositionIDX"  was declared but never referenced
+  	uint16_t curPositionIDX=0;
+../Src/freertos.c(718): warning:  #177-D: variable "Gain"  was declared but never referenced
+  	float Gain=60/0.5;
+../Src/freertos.c(721): warning:  #177-D: variable "PretwistTime"  was declared but never referenced
+  	uint16_t PretwistTime=200*5;//Cycles
+../Src/freertos.c(722): warning:  #177-D: variable "f1"  was declared but never referenced
+  	float f1=0;
+../Src/freertos.c(884): warning:  #177-D: variable "SendCNT2"  was declared but never referenced
+  	uint32_t SendCNT2=0;
+../Src/freertos.c(886): warning:  #177-D: variable "currtcTime"  was declared but never referenced
+  	RTC_TimeTypeDef currtcTime;
+../Src/freertos.c(887): warning:  #177-D: variable "currtcDate"  was declared but never referenced
+  	RTC_DateTypeDef currtcDate;
+../Src/freertos.c(1014): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_R.AX_Float=((float)IMU_R.AX_int16)*0.0048828125;
+../Src/freertos.c(1016): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_R.AY_Float=((float)IMU_R.AY_int16)*0.0048828125;
+../Src/freertos.c(1018): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_R.AZ_Float=((float)IMU_R.AZ_int16)*0.00478515625;
+../Src/freertos.c(1022): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_R.GX_Float=((float)IMU_R.GX_int16)*0.06103515625;
+../Src/freertos.c(1024): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_R.GY_Float=((float)IMU_R.GY_int16)*0.06103515625;
+../Src/freertos.c(1026): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_R.GZ_Float=((float)IMU_R.GZ_int16)*0.06103515625;
+../Src/freertos.c(1036): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_R.Roll_Float=((float)IMU_R.Roll_int16)*0.0054931640625;
+../Src/freertos.c(1038): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_R.Pitch_Float=((float)IMU_R.Pitch_int16)*0.0054931640625;
+../Src/freertos.c(1040): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_R.Yaw_Float=((float)IMU_R.Yaw_int16)*0.0054931640625;
+../Src/freertos.c(1048): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_L.AX_Float=((float)IMU_L.AX_int16)*0.0048828125;
+../Src/freertos.c(1050): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_L.AY_Float=((float)IMU_L.AY_int16)*0.0048828125;
+../Src/freertos.c(1052): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_L.AZ_Float=((float)IMU_L.AZ_int16)*0.00478515625;
+../Src/freertos.c(1056): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_L.GX_Float=((float)IMU_L.GX_int16)*0.06103515625;
+../Src/freertos.c(1058): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_L.GY_Float=((float)IMU_L.GY_int16)*0.06103515625;
+../Src/freertos.c(1060): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_L.GZ_Float=((float)IMU_L.GZ_int16)*0.06103515625;
+../Src/freertos.c(1070): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_L.Roll_Float=((float)IMU_L.Roll_int16)*0.0054931640625;
+../Src/freertos.c(1072): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_L.Pitch_Float=((float)IMU_L.Pitch_int16)*0.0054931640625;
+../Src/freertos.c(1074): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_L.Yaw_Float=((float)IMU_L.Yaw_int16)*0.0054931640625;
+../Src/freertos.c(1082): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_Controller.AX_Float=((float)IMU_Controller.AX_int16)*0.0048828125;
+../Src/freertos.c(1084): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_Controller.AY_Float=((float)IMU_Controller.AY_int16)*0.0048828125;
+../Src/freertos.c(1086): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_Controller.AZ_Float=((float)IMU_Controller.AZ_int16)*0.00478515625;
+../Src/freertos.c(1090): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_Controller.GX_Float=((float)IMU_Controller.GX_int16)*0.06103515625;
+../Src/freertos.c(1092): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_Controller.GY_Float=((float)IMU_Controller.GY_int16)*0.06103515625;
+../Src/freertos.c(1094): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_Controller.GZ_Float=((float)IMU_Controller.GZ_int16)*0.06103515625;
+../Src/freertos.c(1104): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_Controller.Roll_Float=((float)IMU_Controller.Roll_int16)*0.0054931640625;
+../Src/freertos.c(1106): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_Controller.Pitch_Float=((float)IMU_Controller.Pitch_int16)*0.0054931640625;
+../Src/freertos.c(1108): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  					IMU_Controller.Yaw_Float=((float)IMU_Controller.Yaw_int16)*0.0054931640625;
+../Src/freertos.c(1145): warning:  #223-D: function "CAN_senddata" declared implicitly
+  			CAN_senddata(0x001,&ControlState[0],FDCAN_DLC_BYTES_2);
+../Src/freertos.c(1150): warning:  #223-D: function "CAN_senddata" declared implicitly
+  			CAN_senddata(0x001,&ControlState[0],FDCAN_DLC_BYTES_2);
+../Src/freertos.c(1165): warning:  #223-D: function "CAN_senddata" declared implicitly
+  		CAN_senddata(0x318,&CANTXmessage[0],FDCAN_DLC_BYTES_4);
+../Src/freertos.c(1419): warning:  #223-D: function "CAN_senddata" declared implicitly
+  		CAN_senddata(0x340,&CANTXmessage[0],FDCAN_DLC_BYTES_6);
+../Src/freertos.c(1136): warning:  #177-D: variable "int32_t_tempData"  was declared but never referenced
+  	int32_t int32_t_tempData=0;
+../Src/freertos.c(1586): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	LoadCell1Buffer[0]=(float32_t)ADC_DATA[0]/16383.0*3.3;
+../Src/freertos.c(1587): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	LoadCell2Buffer[0]=(float32_t)ADC_DATA[2]/16383.0*3.3;
+../Src/freertos.c(1589): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	PC0_VolVal=(float32_t)ADC_DATA[4]/16383.0*3.3;
+../Src/freertos.c(1590): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	PA5_VolVal=(float32_t)ADC_DATA[5]/16383.0*3.3;
+../Src/freertos.c(1596): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		LoadCellForce[1]=210.91*LoadCell2Buffer_Filtered[0]-266.41;
+../Src/freertos.c(1623): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  			curMSEC=(uint16_t)(((float32_t)rtcTime.SubSeconds)/((float32_t)rtcTime.SecondFraction)*1000.0);
+../Src/freertos.c(1715): warning:  #177-D: variable "temp"  was declared but never referenced
+      uint8_t  temp=0;
+../Src/freertos.c(85): warning:  #177-D: variable "ONforceBias"  was declared but never referenced
+  static float ONforceBias=5;
+../Src/freertos.c(87): warning:  #177-D: variable "OFFforceBias"  was declared but never referenced
+  static float OFFforceBias=60;
+../Src/freertos.c(323): warning:  #177-D: function "AutoScanSensor"  was declared but never referenced
+  static void AutoScanSensor(void);
+../Src/freertos.c(1799): warning:  #177-D: function "CmdProcess"  was declared but never referenced
+  static void CmdProcess(void)
+../Src/freertos.c: 60 warnings, 0 errors
+linking...
+Program Size: Code=60156 RO-data=2720 RW-data=812 ZI-data=27676  
+FromELF: creating hex file...
+"DualMuscleController\DualMuscleController.axf" - 0 Error(s), 60 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.2.0.pack
+                ARM::CMSIS@6.2.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.1
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-DSP.1.16.2.pack
+                ARM::CMSIS-DSP@1.16.2
+                CMSIS Embedded Compute Library
+   * Component: DSP Variant: Source Version: 1.16.2
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32H7xx_DFP.4.1.1.pack
+                Keil::STM32H7xx_DFP@4.1.1
+                STMicroelectronics STM32H7 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_DualMuscleController
+  C:/Users/zqlin/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Include
+  C:/Users/zqlin/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/PrivateInclude
+  C:/Users/zqlin/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.1
+      Include file:  CMSIS/Core/Include/tz_context.h
+
+   * Component: ARM::CMSIS:DSP&Source@1.16.2
+      Source file:   Source/BayesFunctions/BayesFunctionsF16.c
+      Source file:   Source/SVMFunctions/SVMFunctionsF16.c
+      Source file:   Source/DistanceFunctions/DistanceFunctionsF16.c
+      Source file:   Source/FastMathFunctions/FastMathFunctionsF16.c
+      Source file:   Source/SupportFunctions/SupportFunctionsF16.c
+      Source file:   Source/StatisticsFunctions/StatisticsFunctionsF16.c
+      Source file:   Source/InterpolationFunctions/InterpolationFunctionsF16.c
+      Source file:   Source/FastMathFunctions/FastMathFunctions.c
+      Include file:  Include/arm_common_tables.h
+      Source file:   Source/DistanceFunctions/DistanceFunctions.c
+      Source file:   Source/StatisticsFunctions/StatisticsFunctions.c
+      Source file:   Source/SVMFunctions/SVMFunctions.c
+      Source file:   Source/TransformFunctions/TransformFunctions.c
+      Source file:   Source/QuaternionMathFunctions/QuaternionMathFunctions.c
+      Include file:  Include/arm_const_structs.h
+      Include file:  Include/arm_math_f16.h
+      Include file:  Include/arm_const_structs_f16.h
+      Source file:   Source/BasicMathFunctions/BasicMathFunctions.c
+      Source file:   Source/CommonTables/CommonTables.c
+      Include file:  Include/arm_common_tables_f16.h
+      Source file:   Source/ControllerFunctions/ControllerFunctions.c
+      Include file:  Include/arm_math.h
+      Source file:   Source/FilteringFunctions/FilteringFunctions.c
+      Source file:   Source/MatrixFunctions/MatrixFunctions.c
+      Source file:   Source/SupportFunctions/SupportFunctions.c
+      Source file:   Source/BayesFunctions/BayesFunctions.c
+      Source file:   Source/ComplexMathFunctions/ComplexMathFunctions.c
+      Source file:   Source/BasicMathFunctions/BasicMathFunctionsF16.c
+      Source file:   Source/FilteringFunctions/FilteringFunctionsF16.c
+      Source file:   Source/MatrixFunctions/MatrixFunctionsF16.c
+      Source file:   Source/CommonTables/CommonTablesF16.c
+      Source file:   Source/ComplexMathFunctions/ComplexMathFunctionsF16.c
+      Source file:   Source/InterpolationFunctions/InterpolationFunctions.c
+      Source file:   Source/TransformFunctions/TransformFunctionsF16.c
+      Source file:   Source/WindowFunctions/WindowFunctions.c
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>

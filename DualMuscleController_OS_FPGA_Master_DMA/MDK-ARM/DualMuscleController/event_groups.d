@@ -1,0 +1,15 @@
+dualmusclecontroller\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+dualmusclecontroller\event_groups.o: C:\Users\zqlin\AppData\Local\Keil_v5\ARM\ARMCOMPLIER506\Bin\..\include\stdlib.h
+dualmusclecontroller\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+dualmusclecontroller\event_groups.o: C:\Users\zqlin\AppData\Local\Keil_v5\ARM\ARMCOMPLIER506\Bin\..\include\stddef.h
+dualmusclecontroller\event_groups.o: C:\Users\zqlin\AppData\Local\Keil_v5\ARM\ARMCOMPLIER506\Bin\..\include\stdint.h
+dualmusclecontroller\event_groups.o: ../Inc/FreeRTOSConfig.h
+dualmusclecontroller\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+dualmusclecontroller\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+dualmusclecontroller\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+dualmusclecontroller\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+dualmusclecontroller\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+dualmusclecontroller\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+dualmusclecontroller\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+dualmusclecontroller\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+dualmusclecontroller\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h

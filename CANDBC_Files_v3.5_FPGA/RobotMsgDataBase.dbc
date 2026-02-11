@@ -1,0 +1,180 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ MotorCurrent : 0|32@0- (1,0) [0|0] "" Vector__XXX
+ SG_ MotorVelocity : 0|32@0- (1,0) [0|0] "" Vector__XXX
+ SG_ MotorPosition : 0|32@0- (1,0) [0|0] "" Vector__XXX
+ SG_ MotorCurrent : 0|32@0- (1,0) [0|0] "" Vector__XXX
+ SG_ MotorVelocity : 0|32@0- (1,0) [0|0] "" Vector__XXX
+ SG_ MotorPosition : 0|32@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 1025 ForceFlag2: 1 Vector__XXX
+ SG_ ForceFlagSG : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1024 ForceFlag1: 1 Vector__XXX
+ SG_ ForceFlagSG : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1107 HipAngleVel_MSG_L: 4 Vector__XXX
+ SG_ HipAngleVel : 7|16@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 1105 HigAngle_Msg_L: 4 Vector__XXX
+ SG_ HipAngle : 7|32@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 867 Hopf_osci_Phi_mod_TSA2: 4 Vector__XXX
+ SG_ Hopf_osci_phi_mod : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 868 h_in_TSA2: 4 Vector__XXX
+ SG_ Hopf_osci_phi_mod : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 869 h_hat_TSA2: 4 Vector__XXX
+ SG_ Hopf_osci_phi_mod : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 1797 TriggerCAN_R: 1 Vector__XXX
+ SG_ TriggerCAN : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1798 TriggerCAN_L: 1 Vector__XXX
+ SG_ TriggerCAN : 0|8@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1315 LeftInsolePressure: 2 Vector__XXX
+ SG_ InsolePressure : 7|16@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1314 RightInsolePressure: 2 Vector__XXX
+ SG_ InsolePressure : 7|16@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 787 FPGA_M14_Position: 4 Vector__XXX
+ SG_ EMG_RMS : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 786 FPGA_M13_Position: 4 Vector__XXX
+ SG_ EMG_RMS : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 785 FPGA_M12_Position: 4 Vector__XXX
+ SG_ EMG_RMS : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 791 FPGA_M14_Velocity: 4 Vector__XXX
+ SG_ EMG_RMS : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 790 FPGA_M13_Velocity: 4 Vector__XXX
+ SG_ EMG_RMS : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 789 FPGA_M12_Velocity: 4 Vector__XXX
+ SG_ EMG_RMS : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 795 FPGA_M14_Current: 4 Vector__XXX
+ SG_ EMG_RMS : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 794 FPGA_M13_Current: 4 Vector__XXX
+ SG_ EMG_RMS : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 793 FPGA_M12_Current: 4 Vector__XXX
+ SG_ EMG_RMS : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 784 FPGA_M11_Position: 4 Vector__XXX
+ SG_ EMG_RMS : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 788 FPGA_M11_Velocity: 4 Vector__XXX
+ SG_ EMG_RMS : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 792 FPGA_M11_Current: 4 Vector__XXX
+ SG_ EMG_RMS : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 1313 RefForceTraj: 2 Vector__XXX
+ SG_ LoadCellForce : 7|16@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 866 h_hat_TSA1: 4 Vector__XXX
+ SG_ Hopf_osci_phi_mod : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 865 h_in_TSA1: 4 Vector__XXX
+ SG_ Hopf_osci_phi_mod : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 864 Hopf_osci_Phi_mod_TSA1: 4 Vector__XXX
+ SG_ Hopf_osci_phi_mod : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 1106 HipAngleVel_MSG_R: 4 Vector__XXX
+ SG_ HipAngleVel : 7|16@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 849 MotorTrigger_MSG: 1 Vector__XXX
+ SG_ MotorTrigger : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1104 HigAngle_Msg_R: 4 Vector__XXX
+ SG_ HipAngle : 7|32@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 262 EMGSignal: 8 Vector__XXX
+ SG_ EMG_RawSignal : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 544 LoadCell2: 2 Vector__XXX
+ SG_ LoadCellForce : 7|16@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 528 LoadCell1: 2 Vector__XXX
+ SG_ LoadCellForce : 7|16@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 259 RMS: 4 Vector__XXX
+ SG_ EMG_RMS : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 258 TKEO: 4 Vector__XXX
+ SG_ TKEO_Val : 0|32@1- (1,0) [0|0] "" Vector__XXX
+
+
+
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "BusType" "CAN";
+SIG_VALTYPE_ 1105 HipAngle : 1;
+SIG_VALTYPE_ 867 Hopf_osci_phi_mod : 1;
+SIG_VALTYPE_ 868 Hopf_osci_phi_mod : 1;
+SIG_VALTYPE_ 869 Hopf_osci_phi_mod : 1;
+SIG_VALTYPE_ 787 EMG_RMS : 1;
+SIG_VALTYPE_ 786 EMG_RMS : 1;
+SIG_VALTYPE_ 785 EMG_RMS : 1;
+SIG_VALTYPE_ 791 EMG_RMS : 1;
+SIG_VALTYPE_ 790 EMG_RMS : 1;
+SIG_VALTYPE_ 789 EMG_RMS : 1;
+SIG_VALTYPE_ 795 EMG_RMS : 1;
+SIG_VALTYPE_ 794 EMG_RMS : 1;
+SIG_VALTYPE_ 793 EMG_RMS : 1;
+SIG_VALTYPE_ 784 EMG_RMS : 1;
+SIG_VALTYPE_ 788 EMG_RMS : 1;
+SIG_VALTYPE_ 792 EMG_RMS : 1;
+SIG_VALTYPE_ 866 Hopf_osci_phi_mod : 1;
+SIG_VALTYPE_ 865 Hopf_osci_phi_mod : 1;
+SIG_VALTYPE_ 864 Hopf_osci_phi_mod : 1;
+SIG_VALTYPE_ 1104 HipAngle : 1;
+SIG_VALTYPE_ 262 EMG_RawSignal : 1;
+SIG_VALTYPE_ 259 EMG_RMS : 1;
+SIG_VALTYPE_ 258 TKEO_Val : 1;
+

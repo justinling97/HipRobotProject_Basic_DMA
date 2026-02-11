@@ -1,0 +1,14 @@
+dualmusclecontroller\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+dualmusclecontroller\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+dualmusclecontroller\croutine.o: C:\Users\zqlin\AppData\Local\Keil_v5\ARM\ARMCOMPLIER506\Bin\..\include\stddef.h
+dualmusclecontroller\croutine.o: C:\Users\zqlin\AppData\Local\Keil_v5\ARM\ARMCOMPLIER506\Bin\..\include\stdint.h
+dualmusclecontroller\croutine.o: ../Inc/FreeRTOSConfig.h
+dualmusclecontroller\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+dualmusclecontroller\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+dualmusclecontroller\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+dualmusclecontroller\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+dualmusclecontroller\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+dualmusclecontroller\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+dualmusclecontroller\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+dualmusclecontroller\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h
+dualmusclecontroller\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

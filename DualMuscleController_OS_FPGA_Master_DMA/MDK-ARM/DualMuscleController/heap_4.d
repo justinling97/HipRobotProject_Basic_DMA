@@ -1,0 +1,13 @@
+dualmusclecontroller\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+dualmusclecontroller\heap_4.o: C:\Users\zqlin\AppData\Local\Keil_v5\ARM\ARMCOMPLIER506\Bin\..\include\stdlib.h
+dualmusclecontroller\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+dualmusclecontroller\heap_4.o: C:\Users\zqlin\AppData\Local\Keil_v5\ARM\ARMCOMPLIER506\Bin\..\include\stddef.h
+dualmusclecontroller\heap_4.o: C:\Users\zqlin\AppData\Local\Keil_v5\ARM\ARMCOMPLIER506\Bin\..\include\stdint.h
+dualmusclecontroller\heap_4.o: ../Inc/FreeRTOSConfig.h
+dualmusclecontroller\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+dualmusclecontroller\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+dualmusclecontroller\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+dualmusclecontroller\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+dualmusclecontroller\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+dualmusclecontroller\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+dualmusclecontroller\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

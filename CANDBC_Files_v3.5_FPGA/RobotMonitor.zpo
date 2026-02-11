@@ -1,0 +1,2541 @@
+<?xml version="1.0"?>
+<Project>
+	<ProjectInfo>
+		<info name="LastSaveTime">〉〇〉「-〈〉-〈『 〈《:〇》:〉」</info>
+		<info name="ProtocolType">1</info>
+		<info name="DbcFileName">C:/Users/zqlin/OneDrive/Desktop/CANDBC_Files_v3_FPGA/RobotMsgDataBase.dbc</info>
+	</ProjectInfo>
+	<Panels>
+		<info name="BackGround">#ffffff</info>
+		<Panel>
+			<PanelInfo>
+				<info name="PanelName">Pannel1</info>
+			</PanelInfo>
+			<Widgets>
+				<Widget>
+					<WidgetInfo>
+						<MainWidgetInfo>
+							<info name="className" type="QString">MyCurveBox</info>
+							<info name="widgetId" type="int">9</info>
+							<info name="widgetTypeId" type="int">7</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">14,17,1954,416</info>
+							<info name="frameGeometry" type="QRect">14,17,1954,416</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">14</info>
+							<info name="y" type="int">17</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">1941,400</info>
+							<info name="size" type="QSize">1941,400</info>
+							<info name="width" type="int">1941</info>
+							<info name="height" type="int">400</info>
+							<info name="rect" type="QRect">0,0,1940,399</info>
+							<info name="childrenRect" type="QRect">2,2,1938,395</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">240,100</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">240</info>
+							<info name="minimumHeight" type="int">100</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">1348,326</info>
+							<info name="minimumSizeHint" type="QSize">1348,326</info>
+							<info name="acceptDrops" type="bool">true</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString">MyControl#CS9{background-color: rgb(226,227,231,255);border: 2px solid rgb(211,212,216,255);}</info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="id" type="int">9</info>
+							<info name="name" type="QString">FPGA_M13_Current/EMG_RMS</info>
+							<info name="minValue" type="double">0</info>
+							<info name="maxValue" type="double">100</info>
+							<info name="pannel" type="QString">pannel_1</info>
+							<info name="channelList" type="QStringList">CANWIFI-TCP 设备0 通道0</info>
+							<info name="channel" type="int">0</info>
+							<info name="msgName" type="QString">FPGA_M13_Current</info>
+							<info name="sigName" type="QString">EMG_RMS</info>
+							<info name="bgColor" type="QColor">#e2e3e7</info>
+							<info name="bdColor" type="QColor">#d3d4d8</info>
+							<info name="bdWidth" type="int">2</info>
+							<info name="myrect" type="QRect">14,17,1954,416</info>
+							<info name="isSelected" type="bool">false</info>
+							<info name="unit" type="QString"></info>
+							<info name="ratio" type="double">1</info>
+							<info name="offset" type="double">0</info>
+							<info name="startBit" type="int">0</info>
+							<info name="bitSize" type="int">32</info>
+							<info name="remark" type="QString"></info>
+							<info name="valType" type="uint8"></info>
+							<info name="displayText" type="QString">FPGA_M13_Current/EMG_RMS</info>
+							<info name="curveMode" type="int">0</info>
+							<info name="selectMode" type="int">1</info>
+							<info name="measureMode" type="int">0</info>
+							<info name="readInterval" type="int">100</info>
+							<info name="dataSize" type="int">100</info>
+							<info name="fileSize" type="int">16</info>
+							<info name="maxMsecs" type="qulonglong">60000</info>
+							<info name="isRelativeTime" type="bool">true</info>
+							<info name="signalDescShow" type="bool">true</info>
+							<info name="showBusload" type="bool">false</info>
+							<info name="updateYAxisRange" type="bool">false</info>
+							<info name="signalDesc" type="QStringList"> 0 </info>
+							<info name="tableCellsWidth" type="QStringList">20,16,175</info>
+							<info name="splittersWidth" type="QStringList">214,1723</info>
+							<info name="analysisType" type="QStringList">FPGA_M11_Current/EMG_RMS 0,FPGA_M12_Current/EMG_RMS 0,FPGA_M13_Current/EMG_RMS 0,FPGA_M14_Current/EMG_RMS 0,single_yaxis_mode_signal 0</info>
+							<info name="hideYAxis" type="QStringList">FPGA_M11_Current/EMG_RMS 0,FPGA_M12_Current/EMG_RMS 0,FPGA_M13_Current/EMG_RMS 0,FPGA_M14_Current/EMG_RMS 0,single_yaxis_mode_signal 0</info>
+							<info name="signalDisplayText" type="QStringList">single_yaxis_mode_signal single_yaxis_mode_signal,FPGA_M11_Current/EMG_RMS FPGA_M11_Current/EMG_RMS,FPGA_M12_Current/EMG_RMS FPGA_M12_Current/EMG_RMS,FPGA_M14_Current/EMG_RMS FPGA_M14_Current/EMG_RMS,FPGA_M13_Current/EMG_RMS FPGA_M13_Current/EMG_RMS</info>
+						</MainWidgetInfo>
+						<SubWidgetInfo>
+							<info name="className" type="QString">MyCurve</info>
+							<info name="widgetId" type="int">117896480</info>
+							<info name="widgetTypeId" type="int">117116216</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">0,0,1722,365</info>
+							<info name="frameGeometry" type="QRect">0,0,1722,365</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">0</info>
+							<info name="y" type="int">0</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">1723,366</info>
+							<info name="size" type="QSize">1723,366</info>
+							<info name="width" type="int">1723</info>
+							<info name="height" type="int">366</info>
+							<info name="rect" type="QRect">0,0,1722,365</info>
+							<info name="childrenRect" type="QRect">0,0,1722,365</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">0,0</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">0</info>
+							<info name="minimumHeight" type="int">0</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">1221,292</info>
+							<info name="minimumSizeHint" type="QSize">903,138</info>
+							<info name="acceptDrops" type="bool">false</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString"></info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="frameShape" type="Shape">0</info>
+							<info name="frameShadow" type="Shadow">16</info>
+							<info name="lineWidth" type="int">1</info>
+							<info name="midLineWidth" type="int">0</info>
+							<info name="frameWidth" type="int">0</info>
+							<info name="frameRect" type="QRect">0,0,1722,365</info>
+							<info name="canvasBackground" type="QBrush">255,255,255</info>
+							<info name="autoReplot" type="bool">false</info>
+							<info name="plotStyle" type="int">0</info>
+							<info name="penWidth" type="int">0</info>
+							<info name="penStyle" type="int">1</info>
+							<info name="curveSymbolStyle" type="int">-1</info>
+							<info name="gridShow" type="bool">false</info>
+							<info name="useOpenGL" type="bool">false</info>
+							<info name="borderRadius" type="double">2</info>
+							<info name="majorPen" type="QPen">133,133,133,0,3</info>
+							<info name="minorPen" type="QPen">133,133,133,0,3</info>
+							<info name="canvasColor" type="QColor">#ffffff</info>
+							<info name="bandPenColor" type="QColor">#c8333333</info>
+							<info name="markerLinePen" type="QPen">51,51,51,0,0</info>
+							<info name="markerLineStyle" type="int">2</info>
+							<info name="markerLabelAlign" type="int">34</info>
+							<info name="markerLabelColor" type="QColor">#333333</info>
+						</SubWidgetInfo>
+					</WidgetInfo>
+					<Signals>
+						<Signal>
+							<info name="msgName" type="QString">FPGA_M11_Current</info>
+							<info name="sigName" type="QString">EMG_RMS</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">255,0,0</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">0</info>
+							<info name="bitSize" type="int">32</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+						<Signal>
+							<info name="msgName" type="QString">FPGA_M12_Current</info>
+							<info name="sigName" type="QString">EMG_RMS</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">0,0,255</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">0</info>
+							<info name="bitSize" type="int">32</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+						<Signal>
+							<info name="msgName" type="QString">FPGA_M14_Current</info>
+							<info name="sigName" type="QString">EMG_RMS</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">0,127,0</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">0</info>
+							<info name="bitSize" type="int">32</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+						<Signal>
+							<info name="msgName" type="QString">FPGA_M13_Current</info>
+							<info name="sigName" type="QString">EMG_RMS</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">255,128,0</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">0</info>
+							<info name="bitSize" type="int">32</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+					</Signals>
+				</Widget>
+				<Widget>
+					<WidgetInfo>
+						<MainWidgetInfo>
+							<info name="className" type="QString">MyCurveBox</info>
+							<info name="widgetId" type="int">10</info>
+							<info name="widgetTypeId" type="int">7</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">0,894,1962,1293</info>
+							<info name="frameGeometry" type="QRect">0,894,1962,1293</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">0</info>
+							<info name="y" type="int">894</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">1963,400</info>
+							<info name="size" type="QSize">1963,400</info>
+							<info name="width" type="int">1963</info>
+							<info name="height" type="int">400</info>
+							<info name="rect" type="QRect">0,0,1962,399</info>
+							<info name="childrenRect" type="QRect">2,2,1960,395</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">240,100</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">240</info>
+							<info name="minimumHeight" type="int">100</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">1348,326</info>
+							<info name="minimumSizeHint" type="QSize">1348,326</info>
+							<info name="acceptDrops" type="bool">true</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString">MyControl#CS10{background-color: rgb(226,227,231,255);border: 2px solid rgb(0,0,255,255);}</info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="id" type="int">10</info>
+							<info name="name" type="QString">LoadCell2/LoadCellForce</info>
+							<info name="minValue" type="double">0</info>
+							<info name="maxValue" type="double">100</info>
+							<info name="pannel" type="QString">pannel_1</info>
+							<info name="channelList" type="QStringList">CANWIFI-TCP 设备0 通道0</info>
+							<info name="channel" type="int">0</info>
+							<info name="msgName" type="QString">LoadCell2</info>
+							<info name="sigName" type="QString">LoadCellForce</info>
+							<info name="bgColor" type="QColor">#e2e3e7</info>
+							<info name="bdColor" type="QColor">#0000ff</info>
+							<info name="bdWidth" type="int">2</info>
+							<info name="myrect" type="QRect">0,894,1962,1293</info>
+							<info name="isSelected" type="bool">true</info>
+							<info name="unit" type="QString"></info>
+							<info name="ratio" type="double">1</info>
+							<info name="offset" type="double">0</info>
+							<info name="startBit" type="int">7</info>
+							<info name="bitSize" type="int">16</info>
+							<info name="remark" type="QString"></info>
+							<info name="valType" type="uint8"></info>
+							<info name="displayText" type="QString">LoadCell2/LoadCellForce</info>
+							<info name="curveMode" type="int">0</info>
+							<info name="selectMode" type="int">1</info>
+							<info name="measureMode" type="int">0</info>
+							<info name="readInterval" type="int">100</info>
+							<info name="dataSize" type="int">100</info>
+							<info name="fileSize" type="int">16</info>
+							<info name="maxMsecs" type="qulonglong">60000</info>
+							<info name="isRelativeTime" type="bool">true</info>
+							<info name="signalDescShow" type="bool">true</info>
+							<info name="showBusload" type="bool">false</info>
+							<info name="updateYAxisRange" type="bool">false</info>
+							<info name="signalDesc" type="QStringList"> 0 </info>
+							<info name="tableCellsWidth" type="QStringList">20,16,178</info>
+							<info name="splittersWidth" type="QStringList">217,1742</info>
+							<info name="analysisType" type="QStringList">LoadCell1/LoadCellForce 0,LoadCell2/LoadCellForce 0,single_yaxis_mode_signal 0</info>
+							<info name="hideYAxis" type="QStringList">LoadCell1/LoadCellForce 0,LoadCell2/LoadCellForce 0,single_yaxis_mode_signal 0</info>
+							<info name="signalDisplayText" type="QStringList">single_yaxis_mode_signal single_yaxis_mode_signal,LoadCell1/LoadCellForce LoadCell1/LoadCellForce,LoadCell2/LoadCellForce LoadCell2/LoadCellForce</info>
+						</MainWidgetInfo>
+						<SubWidgetInfo>
+							<info name="className" type="QString">MyCurve</info>
+							<info name="widgetId" type="int">211446216</info>
+							<info name="widgetTypeId" type="int">212099736</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">0,0,1741,365</info>
+							<info name="frameGeometry" type="QRect">0,0,1741,365</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">0</info>
+							<info name="y" type="int">0</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">1742,366</info>
+							<info name="size" type="QSize">1742,366</info>
+							<info name="width" type="int">1742</info>
+							<info name="height" type="int">366</info>
+							<info name="rect" type="QRect">0,0,1741,365</info>
+							<info name="childrenRect" type="QRect">0,0,1741,365</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">0,0</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">0</info>
+							<info name="minimumHeight" type="int">0</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">1230,452</info>
+							<info name="minimumSizeHint" type="QSize">912,189</info>
+							<info name="acceptDrops" type="bool">false</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString"></info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="frameShape" type="Shape">0</info>
+							<info name="frameShadow" type="Shadow">16</info>
+							<info name="lineWidth" type="int">1</info>
+							<info name="midLineWidth" type="int">0</info>
+							<info name="frameWidth" type="int">0</info>
+							<info name="frameRect" type="QRect">0,0,1741,365</info>
+							<info name="canvasBackground" type="QBrush">255,255,255</info>
+							<info name="autoReplot" type="bool">false</info>
+							<info name="plotStyle" type="int">0</info>
+							<info name="penWidth" type="int">0</info>
+							<info name="penStyle" type="int">1</info>
+							<info name="curveSymbolStyle" type="int">-1</info>
+							<info name="gridShow" type="bool">false</info>
+							<info name="useOpenGL" type="bool">false</info>
+							<info name="borderRadius" type="double">2</info>
+							<info name="majorPen" type="QPen">133,133,133,0,3</info>
+							<info name="minorPen" type="QPen">133,133,133,0,3</info>
+							<info name="canvasColor" type="QColor">#ffffff</info>
+							<info name="bandPenColor" type="QColor">#c8333333</info>
+							<info name="markerLinePen" type="QPen">51,51,51,0,0</info>
+							<info name="markerLineStyle" type="int">2</info>
+							<info name="markerLabelAlign" type="int">34</info>
+							<info name="markerLabelColor" type="QColor">#333333</info>
+						</SubWidgetInfo>
+					</WidgetInfo>
+					<Signals>
+						<Signal>
+							<info name="msgName" type="QString">LoadCell1</info>
+							<info name="sigName" type="QString">LoadCellForce</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">255,0,0</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">7</info>
+							<info name="bitSize" type="int">16</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+						<Signal>
+							<info name="msgName" type="QString">LoadCell2</info>
+							<info name="sigName" type="QString">LoadCellForce</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">0,0,255</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">7</info>
+							<info name="bitSize" type="int">16</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+					</Signals>
+				</Widget>
+				<Widget>
+					<WidgetInfo>
+						<MainWidgetInfo>
+							<info name="className" type="QString">MyCurveBox</info>
+							<info name="widgetId" type="int">12</info>
+							<info name="widgetTypeId" type="int">7</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">9,416,1965,815</info>
+							<info name="frameGeometry" type="QRect">9,416,1965,815</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">9</info>
+							<info name="y" type="int">416</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">1957,400</info>
+							<info name="size" type="QSize">1957,400</info>
+							<info name="width" type="int">1957</info>
+							<info name="height" type="int">400</info>
+							<info name="rect" type="QRect">0,0,1956,399</info>
+							<info name="childrenRect" type="QRect">2,2,1954,395</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">240,100</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">240</info>
+							<info name="minimumHeight" type="int">100</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">1357,486</info>
+							<info name="minimumSizeHint" type="QSize">1357,486</info>
+							<info name="acceptDrops" type="bool">true</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString">MyControl#CS12{background-color: rgb(226,227,231,255);border: 2px solid rgb(211,212,216,255);}</info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="id" type="int">12</info>
+							<info name="name" type="QString">TriggerCAN_L/TriggerCAN</info>
+							<info name="minValue" type="double">0</info>
+							<info name="maxValue" type="double">100</info>
+							<info name="pannel" type="QString">pannel_1</info>
+							<info name="channelList" type="QStringList">CANWIFI-TCP 设备0 通道0</info>
+							<info name="channel" type="int">0</info>
+							<info name="msgName" type="QString">TriggerCAN_L</info>
+							<info name="sigName" type="QString">TriggerCAN</info>
+							<info name="bgColor" type="QColor">#e2e3e7</info>
+							<info name="bdColor" type="QColor">#d3d4d8</info>
+							<info name="bdWidth" type="int">2</info>
+							<info name="myrect" type="QRect">9,416,1965,815</info>
+							<info name="isSelected" type="bool">false</info>
+							<info name="unit" type="QString"></info>
+							<info name="ratio" type="double">1</info>
+							<info name="offset" type="double">0</info>
+							<info name="startBit" type="int">0</info>
+							<info name="bitSize" type="int">8</info>
+							<info name="remark" type="QString"></info>
+							<info name="valType" type="uint8"></info>
+							<info name="displayText" type="QString">TriggerCAN_L/TriggerCAN</info>
+							<info name="curveMode" type="int">0</info>
+							<info name="selectMode" type="int">2</info>
+							<info name="measureMode" type="int">0</info>
+							<info name="readInterval" type="int">100</info>
+							<info name="dataSize" type="int">100</info>
+							<info name="fileSize" type="int">16</info>
+							<info name="maxMsecs" type="qulonglong">60000</info>
+							<info name="isRelativeTime" type="bool">true</info>
+							<info name="signalDescShow" type="bool">true</info>
+							<info name="showBusload" type="bool">false</info>
+							<info name="updateYAxisRange" type="bool">false</info>
+							<info name="signalDesc" type="QStringList"> 0 </info>
+							<info name="tableCellsWidth" type="QStringList">20,16,177</info>
+							<info name="splittersWidth" type="QStringList">216,1737</info>
+							<info name="analysisType" type="QStringList">TriggerCAN_L/TriggerCAN 0,TriggerCAN_R/TriggerCAN 0,single_yaxis_mode_signal 0</info>
+							<info name="hideYAxis" type="QStringList">TriggerCAN_L/TriggerCAN 0,TriggerCAN_R/TriggerCAN 0,single_yaxis_mode_signal 0</info>
+							<info name="signalDisplayText" type="QStringList">single_yaxis_mode_signal single_yaxis_mode_signal,TriggerCAN_R/TriggerCAN TriggerCAN_R/TriggerCAN,TriggerCAN_L/TriggerCAN TriggerCAN_L/TriggerCAN</info>
+						</MainWidgetInfo>
+						<SubWidgetInfo>
+							<info name="className" type="QString">MyCurve</info>
+							<info name="widgetId" type="int">237336968</info>
+							<info name="widgetTypeId" type="int">212114424</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">0,0,1736,365</info>
+							<info name="frameGeometry" type="QRect">0,0,1736,365</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">0</info>
+							<info name="y" type="int">0</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">1737,366</info>
+							<info name="size" type="QSize">1737,366</info>
+							<info name="width" type="int">1737</info>
+							<info name="height" type="int">366</info>
+							<info name="rect" type="QRect">0,0,1736,365</info>
+							<info name="childrenRect" type="QRect">0,0,1736,365</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">0,0</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">0</info>
+							<info name="minimumHeight" type="int">0</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">1261,292</info>
+							<info name="minimumSizeHint" type="QSize">652,145</info>
+							<info name="acceptDrops" type="bool">false</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString"></info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="frameShape" type="Shape">0</info>
+							<info name="frameShadow" type="Shadow">16</info>
+							<info name="lineWidth" type="int">1</info>
+							<info name="midLineWidth" type="int">0</info>
+							<info name="frameWidth" type="int">0</info>
+							<info name="frameRect" type="QRect">0,0,1736,365</info>
+							<info name="canvasBackground" type="QBrush">255,255,255</info>
+							<info name="autoReplot" type="bool">false</info>
+							<info name="plotStyle" type="int">0</info>
+							<info name="penWidth" type="int">0</info>
+							<info name="penStyle" type="int">1</info>
+							<info name="curveSymbolStyle" type="int">-1</info>
+							<info name="gridShow" type="bool">false</info>
+							<info name="useOpenGL" type="bool">false</info>
+							<info name="borderRadius" type="double">2</info>
+							<info name="majorPen" type="QPen">133,133,133,0,3</info>
+							<info name="minorPen" type="QPen">133,133,133,0,3</info>
+							<info name="canvasColor" type="QColor">#ffffff</info>
+							<info name="bandPenColor" type="QColor">#c8333333</info>
+							<info name="markerLinePen" type="QPen">51,51,51,0,0</info>
+							<info name="markerLineStyle" type="int">2</info>
+							<info name="markerLabelAlign" type="int">34</info>
+							<info name="markerLabelColor" type="QColor">#333333</info>
+						</SubWidgetInfo>
+					</WidgetInfo>
+					<Signals>
+						<Signal>
+							<info name="msgName" type="QString">TriggerCAN_R</info>
+							<info name="sigName" type="QString">TriggerCAN</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">255,0,0</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">0</info>
+							<info name="bitSize" type="int">8</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+						<Signal>
+							<info name="msgName" type="QString">TriggerCAN_L</info>
+							<info name="sigName" type="QString">TriggerCAN</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">0,0,255</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">0</info>
+							<info name="bitSize" type="int">8</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+					</Signals>
+				</Widget>
+				<Widget>
+					<WidgetInfo>
+						<MainWidgetInfo>
+							<info name="className" type="QString">MyCurveBox</info>
+							<info name="widgetId" type="int">13</info>
+							<info name="widgetTypeId" type="int">7</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">66,1302,1134,1701</info>
+							<info name="frameGeometry" type="QRect">66,1302,1134,1701</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">66</info>
+							<info name="y" type="int">1302</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">1069,400</info>
+							<info name="size" type="QSize">1069,400</info>
+							<info name="width" type="int">1069</info>
+							<info name="height" type="int">400</info>
+							<info name="rect" type="QRect">0,0,1068,399</info>
+							<info name="childrenRect" type="QRect">2,2,1066,395</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">240,100</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">240</info>
+							<info name="minimumHeight" type="int">100</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">768,326</info>
+							<info name="minimumSizeHint" type="QSize">668,326</info>
+							<info name="acceptDrops" type="bool">true</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString">MyControl#CS13{background-color: rgb(226,227,231,255);border: 2px solid rgb(211,212,216,255);}</info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="id" type="int">13</info>
+							<info name="name" type="QString">LoadCell2/LoadCellForce</info>
+							<info name="minValue" type="double">0</info>
+							<info name="maxValue" type="double">100</info>
+							<info name="pannel" type="QString">pannel_1</info>
+							<info name="channelList" type="QStringList">CANWIFI-TCP 设备0 通道0</info>
+							<info name="channel" type="int">0</info>
+							<info name="msgName" type="QString">LoadCell2</info>
+							<info name="sigName" type="QString">LoadCellForce</info>
+							<info name="bgColor" type="QColor">#e2e3e7</info>
+							<info name="bdColor" type="QColor">#d3d4d8</info>
+							<info name="bdWidth" type="int">2</info>
+							<info name="myrect" type="QRect">66,1302,1134,1701</info>
+							<info name="isSelected" type="bool">false</info>
+							<info name="unit" type="QString"></info>
+							<info name="ratio" type="double">1</info>
+							<info name="offset" type="double">0</info>
+							<info name="startBit" type="int">7</info>
+							<info name="bitSize" type="int">16</info>
+							<info name="remark" type="QString"></info>
+							<info name="valType" type="uint8"></info>
+							<info name="displayText" type="QString">LoadCell2/LoadCellForce</info>
+							<info name="curveMode" type="int">0</info>
+							<info name="selectMode" type="int">0</info>
+							<info name="measureMode" type="int">0</info>
+							<info name="readInterval" type="int">100</info>
+							<info name="dataSize" type="int">100</info>
+							<info name="fileSize" type="int">16</info>
+							<info name="maxMsecs" type="qulonglong">60000</info>
+							<info name="isRelativeTime" type="bool">true</info>
+							<info name="signalDescShow" type="bool">true</info>
+							<info name="showBusload" type="bool">false</info>
+							<info name="updateYAxisRange" type="bool">false</info>
+							<info name="signalDesc" type="QStringList"> 0 </info>
+							<info name="tableCellsWidth" type="QStringList">20,16,100</info>
+							<info name="splittersWidth" type="QStringList">118,947</info>
+							<info name="analysisType" type="QStringList">LoadCell2/LoadCellForce 0,TriggerCAN_L/TriggerCAN 0,single_yaxis_mode_signal 0</info>
+							<info name="hideYAxis" type="QStringList">LoadCell2/LoadCellForce 0,TriggerCAN_L/TriggerCAN 0,single_yaxis_mode_signal 0</info>
+							<info name="signalDisplayText" type="QStringList">single_yaxis_mode_signal single_yaxis_mode_signal,TriggerCAN_L/TriggerCAN TriggerCAN_L/TriggerCAN,LoadCell2/LoadCellForce LoadCell2/LoadCellForce</info>
+						</MainWidgetInfo>
+						<SubWidgetInfo>
+							<info name="className" type="QString">MyCurve</info>
+							<info name="widgetId" type="int">262842376</info>
+							<info name="widgetTypeId" type="int">262388376</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">0,0,946,365</info>
+							<info name="frameGeometry" type="QRect">0,0,946,365</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">0</info>
+							<info name="y" type="int">0</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">947,366</info>
+							<info name="size" type="QSize">947,366</info>
+							<info name="width" type="int">947</info>
+							<info name="height" type="int">366</info>
+							<info name="rect" type="QRect">0,0,946,365</info>
+							<info name="childrenRect" type="QRect">0,0,946,365</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">0,0</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">0</info>
+							<info name="minimumHeight" type="int">0</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">590,452</info>
+							<info name="minimumSizeHint" type="QSize">548,189</info>
+							<info name="acceptDrops" type="bool">false</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString"></info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="frameShape" type="Shape">0</info>
+							<info name="frameShadow" type="Shadow">16</info>
+							<info name="lineWidth" type="int">1</info>
+							<info name="midLineWidth" type="int">0</info>
+							<info name="frameWidth" type="int">0</info>
+							<info name="frameRect" type="QRect">0,0,946,365</info>
+							<info name="canvasBackground" type="QBrush">255,255,255</info>
+							<info name="autoReplot" type="bool">false</info>
+							<info name="plotStyle" type="int">0</info>
+							<info name="penWidth" type="int">0</info>
+							<info name="penStyle" type="int">1</info>
+							<info name="curveSymbolStyle" type="int">-1</info>
+							<info name="gridShow" type="bool">false</info>
+							<info name="useOpenGL" type="bool">false</info>
+							<info name="borderRadius" type="double">2</info>
+							<info name="majorPen" type="QPen">133,133,133,0,3</info>
+							<info name="minorPen" type="QPen">133,133,133,0,3</info>
+							<info name="canvasColor" type="QColor">#ffffff</info>
+							<info name="bandPenColor" type="QColor">#c8333333</info>
+							<info name="markerLinePen" type="QPen">51,51,51,0,0</info>
+							<info name="markerLineStyle" type="int">2</info>
+							<info name="markerLabelAlign" type="int">34</info>
+							<info name="markerLabelColor" type="QColor">#333333</info>
+						</SubWidgetInfo>
+					</WidgetInfo>
+					<Signals>
+						<Signal>
+							<info name="msgName" type="QString">TriggerCAN_L</info>
+							<info name="sigName" type="QString">TriggerCAN</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">255,0,0</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">0</info>
+							<info name="bitSize" type="int">8</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+						<Signal>
+							<info name="msgName" type="QString">LoadCell2</info>
+							<info name="sigName" type="QString">LoadCellForce</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">0,0,255</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">7</info>
+							<info name="bitSize" type="int">16</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+					</Signals>
+				</Widget>
+				<Widget>
+					<WidgetInfo>
+						<MainWidgetInfo>
+							<info name="className" type="QString">MyCurveBox</info>
+							<info name="widgetId" type="int">14</info>
+							<info name="widgetTypeId" type="int">7</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">1129,1302,2098,1701</info>
+							<info name="frameGeometry" type="QRect">1129,1302,2098,1701</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">1129</info>
+							<info name="y" type="int">1302</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">970,400</info>
+							<info name="size" type="QSize">970,400</info>
+							<info name="width" type="int">970</info>
+							<info name="height" type="int">400</info>
+							<info name="rect" type="QRect">0,0,969,399</info>
+							<info name="childrenRect" type="QRect">2,2,967,395</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">240,100</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">240</info>
+							<info name="minimumHeight" type="int">100</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">768,326</info>
+							<info name="minimumSizeHint" type="QSize">668,326</info>
+							<info name="acceptDrops" type="bool">true</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString">MyControl#CS14{background-color: rgb(226,227,231,255);border: 2px solid rgb(211,212,216,255);}</info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="id" type="int">14</info>
+							<info name="name" type="QString">LoadCell1/LoadCellForce</info>
+							<info name="minValue" type="double">0</info>
+							<info name="maxValue" type="double">100</info>
+							<info name="pannel" type="QString">pannel_1</info>
+							<info name="channelList" type="QStringList">CANWIFI-TCP 设备0 通道0</info>
+							<info name="channel" type="int">0</info>
+							<info name="msgName" type="QString">LoadCell1</info>
+							<info name="sigName" type="QString">LoadCellForce</info>
+							<info name="bgColor" type="QColor">#e2e3e7</info>
+							<info name="bdColor" type="QColor">#d3d4d8</info>
+							<info name="bdWidth" type="int">2</info>
+							<info name="myrect" type="QRect">1129,1302,2098,1701</info>
+							<info name="isSelected" type="bool">false</info>
+							<info name="unit" type="QString"></info>
+							<info name="ratio" type="double">1</info>
+							<info name="offset" type="double">0</info>
+							<info name="startBit" type="int">7</info>
+							<info name="bitSize" type="int">16</info>
+							<info name="remark" type="QString"></info>
+							<info name="valType" type="uint8"></info>
+							<info name="displayText" type="QString">LoadCell1/LoadCellForce</info>
+							<info name="curveMode" type="int">0</info>
+							<info name="selectMode" type="int">1</info>
+							<info name="measureMode" type="int">0</info>
+							<info name="readInterval" type="int">100</info>
+							<info name="dataSize" type="int">100</info>
+							<info name="fileSize" type="int">16</info>
+							<info name="maxMsecs" type="qulonglong">60000</info>
+							<info name="isRelativeTime" type="bool">true</info>
+							<info name="signalDescShow" type="bool">true</info>
+							<info name="showBusload" type="bool">false</info>
+							<info name="updateYAxisRange" type="bool">false</info>
+							<info name="signalDesc" type="QStringList"> 0 </info>
+							<info name="tableCellsWidth" type="QStringList">20,16,100</info>
+							<info name="splittersWidth" type="QStringList">107,859</info>
+							<info name="analysisType" type="QStringList">LoadCell1/LoadCellForce 0,TriggerCAN_R/TriggerCAN 0,single_yaxis_mode_signal 0</info>
+							<info name="hideYAxis" type="QStringList">LoadCell1/LoadCellForce 0,TriggerCAN_R/TriggerCAN 0,single_yaxis_mode_signal 0</info>
+							<info name="signalDisplayText" type="QStringList">single_yaxis_mode_signal single_yaxis_mode_signal,TriggerCAN_R/TriggerCAN TriggerCAN_R/TriggerCAN,LoadCell1/LoadCellForce LoadCell1/LoadCellForce</info>
+						</MainWidgetInfo>
+						<SubWidgetInfo>
+							<info name="className" type="QString">MyCurve</info>
+							<info name="widgetId" type="int">287931688</info>
+							<info name="widgetTypeId" type="int">262402776</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">0,0,858,365</info>
+							<info name="frameGeometry" type="QRect">0,0,858,365</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">0</info>
+							<info name="y" type="int">0</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">859,366</info>
+							<info name="size" type="QSize">859,366</info>
+							<info name="width" type="int">859</info>
+							<info name="height" type="int">366</info>
+							<info name="rect" type="QRect">0,0,858,365</info>
+							<info name="childrenRect" type="QRect">0,0,858,365</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">0,0</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">0</info>
+							<info name="minimumHeight" type="int">0</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">590,452</info>
+							<info name="minimumSizeHint" type="QSize">548,189</info>
+							<info name="acceptDrops" type="bool">false</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString"></info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="frameShape" type="Shape">0</info>
+							<info name="frameShadow" type="Shadow">16</info>
+							<info name="lineWidth" type="int">1</info>
+							<info name="midLineWidth" type="int">0</info>
+							<info name="frameWidth" type="int">0</info>
+							<info name="frameRect" type="QRect">0,0,858,365</info>
+							<info name="canvasBackground" type="QBrush">255,255,255</info>
+							<info name="autoReplot" type="bool">false</info>
+							<info name="plotStyle" type="int">0</info>
+							<info name="penWidth" type="int">0</info>
+							<info name="penStyle" type="int">1</info>
+							<info name="curveSymbolStyle" type="int">-1</info>
+							<info name="gridShow" type="bool">false</info>
+							<info name="useOpenGL" type="bool">false</info>
+							<info name="borderRadius" type="double">2</info>
+							<info name="majorPen" type="QPen">133,133,133,0,3</info>
+							<info name="minorPen" type="QPen">133,133,133,0,3</info>
+							<info name="canvasColor" type="QColor">#ffffff</info>
+							<info name="bandPenColor" type="QColor">#c8333333</info>
+							<info name="markerLinePen" type="QPen">51,51,51,0,0</info>
+							<info name="markerLineStyle" type="int">2</info>
+							<info name="markerLabelAlign" type="int">34</info>
+							<info name="markerLabelColor" type="QColor">#333333</info>
+						</SubWidgetInfo>
+					</WidgetInfo>
+					<Signals>
+						<Signal>
+							<info name="msgName" type="QString">TriggerCAN_R</info>
+							<info name="sigName" type="QString">TriggerCAN</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">255,0,0</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">0</info>
+							<info name="bitSize" type="int">8</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+						<Signal>
+							<info name="msgName" type="QString">LoadCell1</info>
+							<info name="sigName" type="QString">LoadCellForce</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">0,0,255</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">7</info>
+							<info name="bitSize" type="int">16</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+					</Signals>
+				</Widget>
+			</Widgets>
+		</Panel>
+		<Panel>
+			<PanelInfo>
+				<info name="PanelName">IMU</info>
+			</PanelInfo>
+			<Widgets>
+				<Widget>
+					<WidgetInfo>
+						<MainWidgetInfo>
+							<info name="className" type="QString">MyCurveBox</info>
+							<info name="widgetId" type="int">20</info>
+							<info name="widgetTypeId" type="int">7</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">0,680,904,1054</info>
+							<info name="frameGeometry" type="QRect">0,680,904,1054</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">0</info>
+							<info name="y" type="int">680</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">905,375</info>
+							<info name="size" type="QSize">905,375</info>
+							<info name="width" type="int">905</info>
+							<info name="height" type="int">375</info>
+							<info name="rect" type="QRect">0,0,904,374</info>
+							<info name="childrenRect" type="QRect">2,2,902,370</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">240,100</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">240</info>
+							<info name="minimumHeight" type="int">100</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">768,326</info>
+							<info name="minimumSizeHint" type="QSize">752,326</info>
+							<info name="acceptDrops" type="bool">true</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString">MyControl#CS20{background-color: rgb(226,227,231,255);border: 2px solid rgb(211,212,216,255);}</info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="id" type="int">20</info>
+							<info name="name" type="QString">h_in_TSA2/Hopf_osci_phi_mod</info>
+							<info name="minValue" type="double">0</info>
+							<info name="maxValue" type="double">100</info>
+							<info name="pannel" type="QString">pannel_2</info>
+							<info name="channelList" type="QStringList">CANWIFI-TCP 设备0 通道0</info>
+							<info name="channel" type="int">0</info>
+							<info name="msgName" type="QString">h_in_TSA2</info>
+							<info name="sigName" type="QString">Hopf_osci_phi_mod</info>
+							<info name="bgColor" type="QColor">#e2e3e7</info>
+							<info name="bdColor" type="QColor">#d3d4d8</info>
+							<info name="bdWidth" type="int">2</info>
+							<info name="myrect" type="QRect">0,680,904,1054</info>
+							<info name="isSelected" type="bool">false</info>
+							<info name="unit" type="QString"></info>
+							<info name="ratio" type="double">1</info>
+							<info name="offset" type="double">0</info>
+							<info name="startBit" type="int">0</info>
+							<info name="bitSize" type="int">32</info>
+							<info name="remark" type="QString"></info>
+							<info name="valType" type="uint8"></info>
+							<info name="displayText" type="QString">h_in_TSA2/Hopf_osci_phi_mod</info>
+							<info name="curveMode" type="int">0</info>
+							<info name="selectMode" type="int">0</info>
+							<info name="measureMode" type="int">0</info>
+							<info name="readInterval" type="int">100</info>
+							<info name="dataSize" type="int">100</info>
+							<info name="fileSize" type="int">16</info>
+							<info name="maxMsecs" type="qulonglong">60000</info>
+							<info name="isRelativeTime" type="bool">true</info>
+							<info name="signalDescShow" type="bool">true</info>
+							<info name="showBusload" type="bool">false</info>
+							<info name="updateYAxisRange" type="bool">false</info>
+							<info name="signalDesc" type="QStringList"> 0 </info>
+							<info name="tableCellsWidth" type="QStringList">20,16,100</info>
+							<info name="splittersWidth" type="QStringList">100,801</info>
+							<info name="analysisType" type="QStringList">h_in_TSA2/Hopf_osci_phi_mod 0,single_yaxis_mode_signal 0</info>
+							<info name="hideYAxis" type="QStringList">h_in_TSA2/Hopf_osci_phi_mod 0,single_yaxis_mode_signal 0</info>
+							<info name="signalDisplayText" type="QStringList">single_yaxis_mode_signal single_yaxis_mode_signal,h_in_TSA2/Hopf_osci_phi_mod h_in_TSA2/Hopf_osci_phi_mod</info>
+						</MainWidgetInfo>
+						<SubWidgetInfo>
+							<info name="className" type="QString">MyCurve</info>
+							<info name="widgetId" type="int">313417336</info>
+							<info name="widgetTypeId" type="int">313156968</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">0,0,800,340</info>
+							<info name="frameGeometry" type="QRect">0,0,800,340</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">0</info>
+							<info name="y" type="int">0</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">801,341</info>
+							<info name="size" type="QSize">801,341</info>
+							<info name="width" type="int">801</info>
+							<info name="height" type="int">341</info>
+							<info name="rect" type="QRect">0,0,800,340</info>
+							<info name="childrenRect" type="QRect">0,0,800,340</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">0,0</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">0</info>
+							<info name="minimumHeight" type="int">0</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">665,292</info>
+							<info name="minimumSizeHint" type="QSize">665,138</info>
+							<info name="acceptDrops" type="bool">false</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString"></info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="frameShape" type="Shape">0</info>
+							<info name="frameShadow" type="Shadow">16</info>
+							<info name="lineWidth" type="int">1</info>
+							<info name="midLineWidth" type="int">0</info>
+							<info name="frameWidth" type="int">0</info>
+							<info name="frameRect" type="QRect">0,0,800,340</info>
+							<info name="canvasBackground" type="QBrush">255,255,255</info>
+							<info name="autoReplot" type="bool">false</info>
+							<info name="plotStyle" type="int">0</info>
+							<info name="penWidth" type="int">0</info>
+							<info name="penStyle" type="int">1</info>
+							<info name="curveSymbolStyle" type="int">-1</info>
+							<info name="gridShow" type="bool">false</info>
+							<info name="useOpenGL" type="bool">false</info>
+							<info name="borderRadius" type="double">2</info>
+							<info name="majorPen" type="QPen">133,133,133,0,3</info>
+							<info name="minorPen" type="QPen">133,133,133,0,3</info>
+							<info name="canvasColor" type="QColor">#ffffff</info>
+							<info name="bandPenColor" type="QColor">#c8333333</info>
+							<info name="markerLinePen" type="QPen">51,51,51,0,0</info>
+							<info name="markerLineStyle" type="int">2</info>
+							<info name="markerLabelAlign" type="int">34</info>
+							<info name="markerLabelColor" type="QColor">#333333</info>
+						</SubWidgetInfo>
+					</WidgetInfo>
+					<Signals>
+						<Signal>
+							<info name="msgName" type="QString">h_in_TSA2</info>
+							<info name="sigName" type="QString">Hopf_osci_phi_mod</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">255,0,0</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">0</info>
+							<info name="bitSize" type="int">32</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+					</Signals>
+				</Widget>
+				<Widget>
+					<WidgetInfo>
+						<MainWidgetInfo>
+							<info name="className" type="QString">MyCurveBox</info>
+							<info name="widgetId" type="int">23</info>
+							<info name="widgetTypeId" type="int">7</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">903,657,1802,1056</info>
+							<info name="frameGeometry" type="QRect">903,657,1802,1056</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">903</info>
+							<info name="y" type="int">657</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">900,400</info>
+							<info name="size" type="QSize">900,400</info>
+							<info name="width" type="int">900</info>
+							<info name="height" type="int">400</info>
+							<info name="rect" type="QRect">0,0,899,399</info>
+							<info name="childrenRect" type="QRect">2,2,897,395</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">240,100</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">240</info>
+							<info name="minimumHeight" type="int">100</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">792,366</info>
+							<info name="minimumSizeHint" type="QSize">792,366</info>
+							<info name="acceptDrops" type="bool">true</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString">MyControl#CS23{background-color: rgb(226,227,231,255);border: 2px solid rgb(211,212,216,255);}</info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="id" type="int">23</info>
+							<info name="name" type="QString">Hopf_osci_Phi_mod_TSA1/Hopf_osci_phi_mod</info>
+							<info name="minValue" type="double">0</info>
+							<info name="maxValue" type="double">100</info>
+							<info name="pannel" type="QString">pannel_2</info>
+							<info name="channelList" type="QStringList">CANWIFI-TCP 设备0 通道0</info>
+							<info name="channel" type="int">0</info>
+							<info name="msgName" type="QString">Hopf_osci_Phi_mod_TSA1</info>
+							<info name="sigName" type="QString">Hopf_osci_phi_mod</info>
+							<info name="bgColor" type="QColor">#e2e3e7</info>
+							<info name="bdColor" type="QColor">#d3d4d8</info>
+							<info name="bdWidth" type="int">2</info>
+							<info name="myrect" type="QRect">903,657,1802,1056</info>
+							<info name="isSelected" type="bool">false</info>
+							<info name="unit" type="QString"></info>
+							<info name="ratio" type="double">1</info>
+							<info name="offset" type="double">0</info>
+							<info name="startBit" type="int">0</info>
+							<info name="bitSize" type="int">32</info>
+							<info name="remark" type="QString"></info>
+							<info name="valType" type="uint8">&#01;</info>
+							<info name="displayText" type="QString">Hopf_osci_Phi_mod_TSA1/Hopf_osci_phi_mod</info>
+							<info name="curveMode" type="int">0</info>
+							<info name="selectMode" type="int">1</info>
+							<info name="measureMode" type="int">0</info>
+							<info name="readInterval" type="int">100</info>
+							<info name="dataSize" type="int">100</info>
+							<info name="fileSize" type="int">16</info>
+							<info name="maxMsecs" type="qulonglong">60000</info>
+							<info name="isRelativeTime" type="bool">true</info>
+							<info name="signalDescShow" type="bool">true</info>
+							<info name="showBusload" type="bool">false</info>
+							<info name="updateYAxisRange" type="bool">false</info>
+							<info name="signalDesc" type="QStringList"> 0 </info>
+							<info name="tableCellsWidth" type="QStringList">20,16,100</info>
+							<info name="splittersWidth" type="QStringList">99,797</info>
+							<info name="analysisType" type="QStringList">Hopf_osci_Phi_mod_TSA1/Hopf_osci_phi_mod 0,single_yaxis_mode_signal 0</info>
+							<info name="hideYAxis" type="QStringList">Hopf_osci_Phi_mod_TSA1/Hopf_osci_phi_mod 0,single_yaxis_mode_signal 0</info>
+							<info name="signalDisplayText" type="QStringList">single_yaxis_mode_signal single_yaxis_mode_signal,Hopf_osci_Phi_mod_TSA1/Hopf_osci_phi_mod Hopf_osci_Phi_mod_TSA1/Hopf_osci_phi_mod</info>
+						</MainWidgetInfo>
+						<SubWidgetInfo>
+							<info name="className" type="QString">MyCurve</info>
+							<info name="widgetId" type="int">355287840</info>
+							<info name="widgetTypeId" type="int">344993704</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">0,0,796,365</info>
+							<info name="frameGeometry" type="QRect">0,0,796,365</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">0</info>
+							<info name="y" type="int">0</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">797,366</info>
+							<info name="size" type="QSize">797,366</info>
+							<info name="width" type="int">797</info>
+							<info name="height" type="int">366</info>
+							<info name="rect" type="QRect">0,0,796,365</info>
+							<info name="childrenRect" type="QRect">0,0,796,365</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">0,0</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">0</info>
+							<info name="minimumHeight" type="int">0</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">880,332</info>
+							<info name="minimumSizeHint" type="QSize">880,142</info>
+							<info name="acceptDrops" type="bool">false</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString"></info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="frameShape" type="Shape">0</info>
+							<info name="frameShadow" type="Shadow">16</info>
+							<info name="lineWidth" type="int">1</info>
+							<info name="midLineWidth" type="int">0</info>
+							<info name="frameWidth" type="int">0</info>
+							<info name="frameRect" type="QRect">0,0,796,365</info>
+							<info name="canvasBackground" type="QBrush">255,255,255</info>
+							<info name="autoReplot" type="bool">false</info>
+							<info name="plotStyle" type="int">0</info>
+							<info name="penWidth" type="int">0</info>
+							<info name="penStyle" type="int">1</info>
+							<info name="curveSymbolStyle" type="int">-1</info>
+							<info name="gridShow" type="bool">false</info>
+							<info name="useOpenGL" type="bool">false</info>
+							<info name="borderRadius" type="double">2</info>
+							<info name="majorPen" type="QPen">133,133,133,0,3</info>
+							<info name="minorPen" type="QPen">133,133,133,0,3</info>
+							<info name="canvasColor" type="QColor">#ffffff</info>
+							<info name="bandPenColor" type="QColor">#c8333333</info>
+							<info name="markerLinePen" type="QPen">51,51,51,0,0</info>
+							<info name="markerLineStyle" type="int">2</info>
+							<info name="markerLabelAlign" type="int">34</info>
+							<info name="markerLabelColor" type="QColor">#333333</info>
+						</SubWidgetInfo>
+					</WidgetInfo>
+					<Signals>
+						<Signal>
+							<info name="msgName" type="QString">Hopf_osci_Phi_mod_TSA1</info>
+							<info name="sigName" type="QString">Hopf_osci_phi_mod</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">255,0,0</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">0</info>
+							<info name="bitSize" type="int">32</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+					</Signals>
+				</Widget>
+				<Widget>
+					<WidgetInfo>
+						<MainWidgetInfo>
+							<info name="className" type="QString">MyCurveBox</info>
+							<info name="widgetId" type="int">24</info>
+							<info name="widgetTypeId" type="int">7</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">7,1058,1781,1457</info>
+							<info name="frameGeometry" type="QRect">7,1058,1781,1457</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">7</info>
+							<info name="y" type="int">1058</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">1775,400</info>
+							<info name="size" type="QSize">1775,400</info>
+							<info name="width" type="int">1775</info>
+							<info name="height" type="int">400</info>
+							<info name="rect" type="QRect">0,0,1774,399</info>
+							<info name="childrenRect" type="QRect">2,2,1772,395</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">240,100</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">240</info>
+							<info name="minimumHeight" type="int">100</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">2368,366</info>
+							<info name="minimumSizeHint" type="QSize">2368,366</info>
+							<info name="acceptDrops" type="bool">true</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString">MyControl#CS24{background-color: rgb(226,227,231,255);border: 2px solid rgb(211,212,216,255);}</info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="id" type="int">24</info>
+							<info name="name" type="QString">h_hat_TSA2/Hopf_osci_phi_mod</info>
+							<info name="minValue" type="double">0</info>
+							<info name="maxValue" type="double">100</info>
+							<info name="pannel" type="QString">pannel_2</info>
+							<info name="channelList" type="QStringList">CANWIFI-TCP 设备0 通道0</info>
+							<info name="channel" type="int">0</info>
+							<info name="msgName" type="QString">h_hat_TSA2</info>
+							<info name="sigName" type="QString">Hopf_osci_phi_mod</info>
+							<info name="bgColor" type="QColor">#e2e3e7</info>
+							<info name="bdColor" type="QColor">#d3d4d8</info>
+							<info name="bdWidth" type="int">2</info>
+							<info name="myrect" type="QRect">7,1058,1781,1457</info>
+							<info name="isSelected" type="bool">false</info>
+							<info name="unit" type="QString"></info>
+							<info name="ratio" type="double">1</info>
+							<info name="offset" type="double">0</info>
+							<info name="startBit" type="int">0</info>
+							<info name="bitSize" type="int">32</info>
+							<info name="remark" type="QString"></info>
+							<info name="valType" type="uint8">&#01;</info>
+							<info name="displayText" type="QString">h_hat_TSA2/Hopf_osci_phi_mod</info>
+							<info name="curveMode" type="int">0</info>
+							<info name="selectMode" type="int">1</info>
+							<info name="measureMode" type="int">0</info>
+							<info name="readInterval" type="int">100</info>
+							<info name="dataSize" type="int">100</info>
+							<info name="fileSize" type="int">16</info>
+							<info name="maxMsecs" type="qulonglong">60000</info>
+							<info name="isRelativeTime" type="bool">true</info>
+							<info name="signalDescShow" type="bool">true</info>
+							<info name="showBusload" type="bool">false</info>
+							<info name="updateYAxisRange" type="bool">false</info>
+							<info name="signalDesc" type="QStringList"> 0 </info>
+							<info name="tableCellsWidth" type="QStringList">20,16,100</info>
+							<info name="splittersWidth" type="QStringList">83,1688</info>
+							<info name="analysisType" type="QStringList">HigAngle_Msg_L/HipAngle 0,Hopf_osci_Phi_mod_TSA2/Hopf_osci_phi_mod 0,h_hat_TSA2/Hopf_osci_phi_mod 0,single_yaxis_mode_signal 0</info>
+							<info name="hideYAxis" type="QStringList">HigAngle_Msg_L/HipAngle 0,Hopf_osci_Phi_mod_TSA2/Hopf_osci_phi_mod 0,h_hat_TSA2/Hopf_osci_phi_mod 0,single_yaxis_mode_signal 0</info>
+							<info name="signalDisplayText" type="QStringList">single_yaxis_mode_signal single_yaxis_mode_signal,Hopf_osci_Phi_mod_TSA2/Hopf_osci_phi_mod Hopf_osci_Phi_mod_TSA2/Hopf_osci_phi_mod,HigAngle_Msg_L/HipAngle HigAngle_Msg_L/HipAngle,h_hat_TSA2/Hopf_osci_phi_mod h_hat_TSA2/Hopf_osci_phi_mod</info>
+						</MainWidgetInfo>
+						<SubWidgetInfo>
+							<info name="className" type="QString">MyCurve</info>
+							<info name="widgetId" type="int">371947608</info>
+							<info name="widgetTypeId" type="int">344939848</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">0,0,1687,365</info>
+							<info name="frameGeometry" type="QRect">0,0,1687,365</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">0</info>
+							<info name="y" type="int">0</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">1688,366</info>
+							<info name="size" type="QSize">1688,366</info>
+							<info name="width" type="int">1688</info>
+							<info name="height" type="int">366</info>
+							<info name="rect" type="QRect">0,0,1687,365</info>
+							<info name="childrenRect" type="QRect">0,0,1687,365</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">0,0</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">0</info>
+							<info name="minimumHeight" type="int">0</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">2348,292</info>
+							<info name="minimumSizeHint" type="QSize">2348,131</info>
+							<info name="acceptDrops" type="bool">false</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString"></info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="frameShape" type="Shape">0</info>
+							<info name="frameShadow" type="Shadow">16</info>
+							<info name="lineWidth" type="int">1</info>
+							<info name="midLineWidth" type="int">0</info>
+							<info name="frameWidth" type="int">0</info>
+							<info name="frameRect" type="QRect">0,0,1687,365</info>
+							<info name="canvasBackground" type="QBrush">255,255,255</info>
+							<info name="autoReplot" type="bool">false</info>
+							<info name="plotStyle" type="int">0</info>
+							<info name="penWidth" type="int">0</info>
+							<info name="penStyle" type="int">1</info>
+							<info name="curveSymbolStyle" type="int">-1</info>
+							<info name="gridShow" type="bool">false</info>
+							<info name="useOpenGL" type="bool">false</info>
+							<info name="borderRadius" type="double">2</info>
+							<info name="majorPen" type="QPen">133,133,133,0,3</info>
+							<info name="minorPen" type="QPen">133,133,133,0,3</info>
+							<info name="canvasColor" type="QColor">#ffffff</info>
+							<info name="bandPenColor" type="QColor">#c8333333</info>
+							<info name="markerLinePen" type="QPen">51,51,51,0,0</info>
+							<info name="markerLineStyle" type="int">2</info>
+							<info name="markerLabelAlign" type="int">34</info>
+							<info name="markerLabelColor" type="QColor">#333333</info>
+						</SubWidgetInfo>
+					</WidgetInfo>
+					<Signals>
+						<Signal>
+							<info name="msgName" type="QString">Hopf_osci_Phi_mod_TSA2</info>
+							<info name="sigName" type="QString">Hopf_osci_phi_mod</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">255,0,0</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">0</info>
+							<info name="bitSize" type="int">32</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+						<Signal>
+							<info name="msgName" type="QString">HigAngle_Msg_L</info>
+							<info name="sigName" type="QString">HipAngle</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">0,0,255</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">7</info>
+							<info name="bitSize" type="int">32</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+						<Signal>
+							<info name="msgName" type="QString">h_hat_TSA2</info>
+							<info name="sigName" type="QString">Hopf_osci_phi_mod</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">0,127,0</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">0</info>
+							<info name="bitSize" type="int">32</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+					</Signals>
+				</Widget>
+				<Widget>
+					<WidgetInfo>
+						<MainWidgetInfo>
+							<info name="className" type="QString">MyCurveBox</info>
+							<info name="widgetId" type="int">27</info>
+							<info name="widgetTypeId" type="int">7</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">2,1450,1787,1849</info>
+							<info name="frameGeometry" type="QRect">2,1450,1787,1849</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">2</info>
+							<info name="y" type="int">1450</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">1786,400</info>
+							<info name="size" type="QSize">1786,400</info>
+							<info name="width" type="int">1786</info>
+							<info name="height" type="int">400</info>
+							<info name="rect" type="QRect">0,0,1785,399</info>
+							<info name="childrenRect" type="QRect">2,2,1783,395</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">240,100</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">240</info>
+							<info name="minimumHeight" type="int">100</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">2310,366</info>
+							<info name="minimumSizeHint" type="QSize">2310,366</info>
+							<info name="acceptDrops" type="bool">true</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString">MyControl#CS27{background-color: rgb(226,227,231,255);border: 2px solid rgb(0,0,255,255);}</info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="id" type="int">27</info>
+							<info name="name" type="QString">h_hat_TSA1/Hopf_osci_phi_mod</info>
+							<info name="minValue" type="double">0</info>
+							<info name="maxValue" type="double">100</info>
+							<info name="pannel" type="QString">pannel_2</info>
+							<info name="channelList" type="QStringList">CANWIFI-TCP 设备0 通道0</info>
+							<info name="channel" type="int">0</info>
+							<info name="msgName" type="QString">h_hat_TSA1</info>
+							<info name="sigName" type="QString">Hopf_osci_phi_mod</info>
+							<info name="bgColor" type="QColor">#e2e3e7</info>
+							<info name="bdColor" type="QColor">#0000ff</info>
+							<info name="bdWidth" type="int">2</info>
+							<info name="myrect" type="QRect">2,1450,1787,1849</info>
+							<info name="isSelected" type="bool">true</info>
+							<info name="unit" type="QString"></info>
+							<info name="ratio" type="double">1</info>
+							<info name="offset" type="double">0</info>
+							<info name="startBit" type="int">0</info>
+							<info name="bitSize" type="int">32</info>
+							<info name="remark" type="QString"></info>
+							<info name="valType" type="uint8">&#01;</info>
+							<info name="displayText" type="QString">h_hat_TSA1/Hopf_osci_phi_mod</info>
+							<info name="curveMode" type="int">0</info>
+							<info name="selectMode" type="int">1</info>
+							<info name="measureMode" type="int">0</info>
+							<info name="readInterval" type="int">100</info>
+							<info name="dataSize" type="int">100</info>
+							<info name="fileSize" type="int">16</info>
+							<info name="maxMsecs" type="qulonglong">10701</info>
+							<info name="isRelativeTime" type="bool">true</info>
+							<info name="signalDescShow" type="bool">true</info>
+							<info name="showBusload" type="bool">false</info>
+							<info name="updateYAxisRange" type="bool">false</info>
+							<info name="signalDesc" type="QStringList"></info>
+							<info name="tableCellsWidth" type="QStringList">20,16,100</info>
+							<info name="splittersWidth" type="QStringList">83,1699</info>
+							<info name="analysisType" type="QStringList">HigAngle_Msg_R/HipAngle 0,Hopf_osci_Phi_mod_TSA1/Hopf_osci_phi_mod 0,h_hat_TSA1/Hopf_osci_phi_mod 0,single_yaxis_mode_signal 0</info>
+							<info name="hideYAxis" type="QStringList">HigAngle_Msg_R/HipAngle 0,Hopf_osci_Phi_mod_TSA1/Hopf_osci_phi_mod 0,h_hat_TSA1/Hopf_osci_phi_mod 0,single_yaxis_mode_signal 0</info>
+							<info name="signalDisplayText" type="QStringList">single_yaxis_mode_signal single_yaxis_mode_signal,Hopf_osci_Phi_mod_TSA1/Hopf_osci_phi_mod Hopf_osci_Phi_mod_TSA1/Hopf_osci_phi_mod,HigAngle_Msg_R/HipAngle HigAngle_Msg_R/HipAngle,h_hat_TSA1/Hopf_osci_phi_mod h_hat_TSA1/Hopf_osci_phi_mod</info>
+						</MainWidgetInfo>
+						<SubWidgetInfo>
+							<info name="className" type="QString">MyCurve</info>
+							<info name="widgetId" type="int">386959816</info>
+							<info name="widgetTypeId" type="int">313143720</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">0,0,1698,365</info>
+							<info name="frameGeometry" type="QRect">0,0,1698,365</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">0</info>
+							<info name="y" type="int">0</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">1699,366</info>
+							<info name="size" type="QSize">1699,366</info>
+							<info name="width" type="int">1699</info>
+							<info name="height" type="int">366</info>
+							<info name="rect" type="QRect">0,0,1698,365</info>
+							<info name="childrenRect" type="QRect">0,0,1698,365</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">0,0</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">0</info>
+							<info name="minimumHeight" type="int">0</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">2281,292</info>
+							<info name="minimumSizeHint" type="QSize">2281,131</info>
+							<info name="acceptDrops" type="bool">false</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString"></info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="frameShape" type="Shape">0</info>
+							<info name="frameShadow" type="Shadow">16</info>
+							<info name="lineWidth" type="int">1</info>
+							<info name="midLineWidth" type="int">0</info>
+							<info name="frameWidth" type="int">0</info>
+							<info name="frameRect" type="QRect">0,0,1698,365</info>
+							<info name="canvasBackground" type="QBrush">255,255,255</info>
+							<info name="autoReplot" type="bool">false</info>
+							<info name="plotStyle" type="int">0</info>
+							<info name="penWidth" type="int">0</info>
+							<info name="penStyle" type="int">1</info>
+							<info name="curveSymbolStyle" type="int">-1</info>
+							<info name="gridShow" type="bool">false</info>
+							<info name="useOpenGL" type="bool">false</info>
+							<info name="borderRadius" type="double">2</info>
+							<info name="majorPen" type="QPen">133,133,133,0,3</info>
+							<info name="minorPen" type="QPen">133,133,133,0,3</info>
+							<info name="canvasColor" type="QColor">#ffffff</info>
+							<info name="bandPenColor" type="QColor">#c8333333</info>
+							<info name="markerLinePen" type="QPen">51,51,51,0,0</info>
+							<info name="markerLineStyle" type="int">2</info>
+							<info name="markerLabelAlign" type="int">34</info>
+							<info name="markerLabelColor" type="QColor">#333333</info>
+						</SubWidgetInfo>
+					</WidgetInfo>
+					<Signals>
+						<Signal>
+							<info name="msgName" type="QString">Hopf_osci_Phi_mod_TSA1</info>
+							<info name="sigName" type="QString">Hopf_osci_phi_mod</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">255,0,0</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">0</info>
+							<info name="bitSize" type="int">32</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+						<Signal>
+							<info name="msgName" type="QString">HigAngle_Msg_R</info>
+							<info name="sigName" type="QString">HipAngle</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">0,0,255</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">7</info>
+							<info name="bitSize" type="int">32</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+						<Signal>
+							<info name="msgName" type="QString">h_hat_TSA1</info>
+							<info name="sigName" type="QString">Hopf_osci_phi_mod</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">0,127,0</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">0</info>
+							<info name="bitSize" type="int">32</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+					</Signals>
+				</Widget>
+				<Widget>
+					<WidgetInfo>
+						<MainWidgetInfo>
+							<info name="className" type="QString">MyCurveBox</info>
+							<info name="widgetId" type="int">28</info>
+							<info name="widgetTypeId" type="int">7</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">12,0,1828,328</info>
+							<info name="frameGeometry" type="QRect">12,0,1828,328</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">12</info>
+							<info name="y" type="int">0</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">1817,329</info>
+							<info name="size" type="QSize">1817,329</info>
+							<info name="width" type="int">1817</info>
+							<info name="height" type="int">329</info>
+							<info name="rect" type="QRect">0,0,1816,328</info>
+							<info name="childrenRect" type="QRect">2,2,1814,324</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">240,100</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">240</info>
+							<info name="minimumHeight" type="int">100</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">1384,286</info>
+							<info name="minimumSizeHint" type="QSize">1384,286</info>
+							<info name="acceptDrops" type="bool">true</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString">MyControl#CS28{background-color: rgb(226,227,231,255);border: 2px solid rgb(211,212,216,255);}</info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="id" type="int">28</info>
+							<info name="name" type="QString">ForceFlag1/ForceFlagSG</info>
+							<info name="minValue" type="double">0</info>
+							<info name="maxValue" type="double">100</info>
+							<info name="pannel" type="QString">pannel_2</info>
+							<info name="channelList" type="QStringList">CANWIFI-TCP 设备0 通道0</info>
+							<info name="channel" type="int">0</info>
+							<info name="msgName" type="QString">ForceFlag1</info>
+							<info name="sigName" type="QString">ForceFlagSG</info>
+							<info name="bgColor" type="QColor">#e2e3e7</info>
+							<info name="bdColor" type="QColor">#d3d4d8</info>
+							<info name="bdWidth" type="int">2</info>
+							<info name="myrect" type="QRect">12,0,1828,328</info>
+							<info name="isSelected" type="bool">false</info>
+							<info name="unit" type="QString"></info>
+							<info name="ratio" type="double">1</info>
+							<info name="offset" type="double">0</info>
+							<info name="startBit" type="int">7</info>
+							<info name="bitSize" type="int">8</info>
+							<info name="remark" type="QString"></info>
+							<info name="valType" type="uint8"></info>
+							<info name="displayText" type="QString">ForceFlag1/ForceFlagSG</info>
+							<info name="curveMode" type="int">0</info>
+							<info name="selectMode" type="int">0</info>
+							<info name="measureMode" type="int">0</info>
+							<info name="readInterval" type="int">100</info>
+							<info name="dataSize" type="int">100</info>
+							<info name="fileSize" type="int">16</info>
+							<info name="maxMsecs" type="qulonglong">8235</info>
+							<info name="isRelativeTime" type="bool">true</info>
+							<info name="signalDescShow" type="bool">true</info>
+							<info name="showBusload" type="bool">false</info>
+							<info name="updateYAxisRange" type="bool">false</info>
+							<info name="signalDesc" type="QStringList"></info>
+							<info name="tableCellsWidth" type="QStringList">20,16,162</info>
+							<info name="splittersWidth" type="QStringList">201,1612</info>
+							<info name="analysisType" type="QStringList">ForceFlag1/ForceFlagSG 0,HigAngle_Msg_R/HipAngle 0,single_yaxis_mode_signal 0</info>
+							<info name="hideYAxis" type="QStringList">ForceFlag1/ForceFlagSG 0,HigAngle_Msg_R/HipAngle 0,single_yaxis_mode_signal 0</info>
+							<info name="signalDisplayText" type="QStringList">single_yaxis_mode_signal single_yaxis_mode_signal,HigAngle_Msg_R/HipAngle HigAngle_Msg_R/HipAngle,ForceFlag1/ForceFlagSG ForceFlag1/ForceFlagSG</info>
+						</MainWidgetInfo>
+						<SubWidgetInfo>
+							<info name="className" type="QString">MyCurve</info>
+							<info name="widgetId" type="int">397134216</info>
+							<info name="widgetTypeId" type="int">344915464</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">0,0,1611,294</info>
+							<info name="frameGeometry" type="QRect">0,0,1611,294</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">0</info>
+							<info name="y" type="int">0</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">1612,295</info>
+							<info name="size" type="QSize">1612,295</info>
+							<info name="width" type="int">1612</info>
+							<info name="height" type="int">295</info>
+							<info name="rect" type="QRect">0,0,1611,294</info>
+							<info name="childrenRect" type="QRect">0,0,1611,294</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">0,0</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">0</info>
+							<info name="minimumHeight" type="int">0</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">1522,252</info>
+							<info name="minimumSizeHint" type="QSize">1522,120</info>
+							<info name="acceptDrops" type="bool">false</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString"></info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="frameShape" type="Shape">0</info>
+							<info name="frameShadow" type="Shadow">16</info>
+							<info name="lineWidth" type="int">1</info>
+							<info name="midLineWidth" type="int">0</info>
+							<info name="frameWidth" type="int">0</info>
+							<info name="frameRect" type="QRect">0,0,1611,294</info>
+							<info name="canvasBackground" type="QBrush">255,255,255</info>
+							<info name="autoReplot" type="bool">false</info>
+							<info name="plotStyle" type="int">0</info>
+							<info name="penWidth" type="int">0</info>
+							<info name="penStyle" type="int">1</info>
+							<info name="curveSymbolStyle" type="int">-1</info>
+							<info name="gridShow" type="bool">false</info>
+							<info name="useOpenGL" type="bool">false</info>
+							<info name="borderRadius" type="double">2</info>
+							<info name="majorPen" type="QPen">133,133,133,0,3</info>
+							<info name="minorPen" type="QPen">133,133,133,0,3</info>
+							<info name="canvasColor" type="QColor">#ffffff</info>
+							<info name="bandPenColor" type="QColor">#c8333333</info>
+							<info name="markerLinePen" type="QPen">51,51,51,0,0</info>
+							<info name="markerLineStyle" type="int">2</info>
+							<info name="markerLabelAlign" type="int">34</info>
+							<info name="markerLabelColor" type="QColor">#333333</info>
+						</SubWidgetInfo>
+					</WidgetInfo>
+					<Signals>
+						<Signal>
+							<info name="msgName" type="QString">HigAngle_Msg_R</info>
+							<info name="sigName" type="QString">HipAngle</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">255,0,0</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">7</info>
+							<info name="bitSize" type="int">32</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+						<Signal>
+							<info name="msgName" type="QString">ForceFlag1</info>
+							<info name="sigName" type="QString">ForceFlagSG</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">0,0,255</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">7</info>
+							<info name="bitSize" type="int">8</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+					</Signals>
+				</Widget>
+				<Widget>
+					<WidgetInfo>
+						<MainWidgetInfo>
+							<info name="className" type="QString">MyCurveBox</info>
+							<info name="widgetId" type="int">29</info>
+							<info name="widgetTypeId" type="int">7</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">10,329,1826,654</info>
+							<info name="frameGeometry" type="QRect">10,329,1826,654</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">10</info>
+							<info name="y" type="int">329</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">1817,326</info>
+							<info name="size" type="QSize">1817,326</info>
+							<info name="width" type="int">1817</info>
+							<info name="height" type="int">326</info>
+							<info name="rect" type="QRect">0,0,1816,325</info>
+							<info name="childrenRect" type="QRect">2,2,1814,321</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">240,100</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">240</info>
+							<info name="minimumHeight" type="int">100</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">1500,326</info>
+							<info name="minimumSizeHint" type="QSize">1500,326</info>
+							<info name="acceptDrops" type="bool">true</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString">MyControl#CS29{background-color: rgb(226,227,231,255);border: 2px solid rgb(211,212,216,255);}</info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="id" type="int">29</info>
+							<info name="name" type="QString">ForceFlag2/ForceFlagSG</info>
+							<info name="minValue" type="double">0</info>
+							<info name="maxValue" type="double">100</info>
+							<info name="pannel" type="QString">pannel_2</info>
+							<info name="channelList" type="QStringList">CANWIFI-TCP 设备0 通道0</info>
+							<info name="channel" type="int">0</info>
+							<info name="msgName" type="QString">ForceFlag2</info>
+							<info name="sigName" type="QString">ForceFlagSG</info>
+							<info name="bgColor" type="QColor">#e2e3e7</info>
+							<info name="bdColor" type="QColor">#d3d4d8</info>
+							<info name="bdWidth" type="int">2</info>
+							<info name="myrect" type="QRect">10,329,1826,654</info>
+							<info name="isSelected" type="bool">false</info>
+							<info name="unit" type="QString"></info>
+							<info name="ratio" type="double">1</info>
+							<info name="offset" type="double">0</info>
+							<info name="startBit" type="int">7</info>
+							<info name="bitSize" type="int">8</info>
+							<info name="remark" type="QString"></info>
+							<info name="valType" type="uint8"></info>
+							<info name="displayText" type="QString">ForceFlag2/ForceFlagSG</info>
+							<info name="curveMode" type="int">0</info>
+							<info name="selectMode" type="int">0</info>
+							<info name="measureMode" type="int">0</info>
+							<info name="readInterval" type="int">100</info>
+							<info name="dataSize" type="int">100</info>
+							<info name="fileSize" type="int">16</info>
+							<info name="maxMsecs" type="qulonglong">7292</info>
+							<info name="isRelativeTime" type="bool">true</info>
+							<info name="signalDescShow" type="bool">true</info>
+							<info name="showBusload" type="bool">false</info>
+							<info name="updateYAxisRange" type="bool">false</info>
+							<info name="signalDesc" type="QStringList"></info>
+							<info name="tableCellsWidth" type="QStringList">20,16,162</info>
+							<info name="splittersWidth" type="QStringList">201,1612</info>
+							<info name="analysisType" type="QStringList">ForceFlag2/ForceFlagSG 0,HigAngle_Msg_L/HipAngle 0,single_yaxis_mode_signal 0</info>
+							<info name="hideYAxis" type="QStringList">ForceFlag2/ForceFlagSG 0,HigAngle_Msg_L/HipAngle 0,single_yaxis_mode_signal 0</info>
+							<info name="signalDisplayText" type="QStringList">single_yaxis_mode_signal single_yaxis_mode_signal,HigAngle_Msg_L/HipAngle HigAngle_Msg_L/HipAngle,ForceFlag2/ForceFlagSG ForceFlag2/ForceFlagSG</info>
+						</MainWidgetInfo>
+						<SubWidgetInfo>
+							<info name="className" type="QString">MyCurve</info>
+							<info name="widgetId" type="int">370635856</info>
+							<info name="widgetTypeId" type="int">344944552</info>
+							<info name="modal" type="bool">false</info>
+							<info name="windowModality" type="Qt::WindowModality">0</info>
+							<info name="enabled" type="bool">true</info>
+							<info name="geometry" type="QRect">0,0,1611,291</info>
+							<info name="frameGeometry" type="QRect">0,0,1611,291</info>
+							<info name="normalGeometry" type="QRect">0,0,-1,-1</info>
+							<info name="x" type="int">0</info>
+							<info name="y" type="int">0</info>
+							<info name="pos" type="QPoint"></info>
+							<info name="frameSize" type="QSize">1612,292</info>
+							<info name="size" type="QSize">1612,292</info>
+							<info name="width" type="int">1612</info>
+							<info name="height" type="int">292</info>
+							<info name="rect" type="QRect">0,0,1611,291</info>
+							<info name="childrenRect" type="QRect">0,0,1611,291</info>
+							<info name="childrenRegion" type="QRegion"></info>
+							<info name="sizePolicy" type="QSizePolicy"></info>
+							<info name="minimumSize" type="QSize">0,0</info>
+							<info name="maximumSize" type="QSize">16777215,16777215</info>
+							<info name="minimumWidth" type="int">0</info>
+							<info name="minimumHeight" type="int">0</info>
+							<info name="maximumWidth" type="int">16777215</info>
+							<info name="maximumHeight" type="int">16777215</info>
+							<info name="sizeIncrement" type="QSize">0,0</info>
+							<info name="baseSize" type="QSize">0,0</info>
+							<info name="palette" type="QPalette"></info>
+							<info name="font" type="QFont">Microsoft YaHei,-1,12,5,50,0,0,0,0,0</info>
+							<info name="cursor" type="QCursor"></info>
+							<info name="mouseTracking" type="bool">true</info>
+							<info name="tabletTracking" type="bool">false</info>
+							<info name="isActiveWindow" type="bool">false</info>
+							<info name="focusPolicy" type="Qt::FocusPolicy">0</info>
+							<info name="focus" type="bool">false</info>
+							<info name="contextMenuPolicy" type="Qt::ContextMenuPolicy">1</info>
+							<info name="updatesEnabled" type="bool">true</info>
+							<info name="visible" type="bool">false</info>
+							<info name="minimized" type="bool">false</info>
+							<info name="maximized" type="bool">false</info>
+							<info name="fullScreen" type="bool">false</info>
+							<info name="sizeHint" type="QSize">1129,292</info>
+							<info name="minimumSizeHint" type="QSize">1129,138</info>
+							<info name="acceptDrops" type="bool">false</info>
+							<info name="windowTitle" type="QString"></info>
+							<info name="windowIcon" type="QIcon"></info>
+							<info name="windowIconText" type="QString"></info>
+							<info name="windowOpacity" type="double">1</info>
+							<info name="windowModified" type="bool">false</info>
+							<info name="toolTip" type="QString"></info>
+							<info name="toolTipDuration" type="int">-1</info>
+							<info name="statusTip" type="QString"></info>
+							<info name="whatsThis" type="QString"></info>
+							<info name="accessibleName" type="QString"></info>
+							<info name="accessibleDescription" type="QString"></info>
+							<info name="layoutDirection" type="Qt::LayoutDirection">0</info>
+							<info name="autoFillBackground" type="bool">false</info>
+							<info name="styleSheet" type="QString"></info>
+							<info name="locale" type="QLocale"></info>
+							<info name="windowFilePath" type="QString"></info>
+							<info name="inputMethodHints" type="Qt::InputMethodHints">0</info>
+							<info name="frameShape" type="Shape">0</info>
+							<info name="frameShadow" type="Shadow">16</info>
+							<info name="lineWidth" type="int">1</info>
+							<info name="midLineWidth" type="int">0</info>
+							<info name="frameWidth" type="int">0</info>
+							<info name="frameRect" type="QRect">0,0,1611,291</info>
+							<info name="canvasBackground" type="QBrush">255,255,255</info>
+							<info name="autoReplot" type="bool">false</info>
+							<info name="plotStyle" type="int">0</info>
+							<info name="penWidth" type="int">0</info>
+							<info name="penStyle" type="int">1</info>
+							<info name="curveSymbolStyle" type="int">-1</info>
+							<info name="gridShow" type="bool">false</info>
+							<info name="useOpenGL" type="bool">false</info>
+							<info name="borderRadius" type="double">2</info>
+							<info name="majorPen" type="QPen">133,133,133,0,3</info>
+							<info name="minorPen" type="QPen">133,133,133,0,3</info>
+							<info name="canvasColor" type="QColor">#ffffff</info>
+							<info name="bandPenColor" type="QColor">#c8333333</info>
+							<info name="markerLinePen" type="QPen">51,51,51,0,0</info>
+							<info name="markerLineStyle" type="int">2</info>
+							<info name="markerLabelAlign" type="int">34</info>
+							<info name="markerLabelColor" type="QColor">#333333</info>
+						</SubWidgetInfo>
+					</WidgetInfo>
+					<Signals>
+						<Signal>
+							<info name="msgName" type="QString">HigAngle_Msg_L</info>
+							<info name="sigName" type="QString">HipAngle</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">255,0,0</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">7</info>
+							<info name="bitSize" type="int">32</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+						<Signal>
+							<info name="msgName" type="QString">ForceFlag2</info>
+							<info name="sigName" type="QString">ForceFlagSG</info>
+							<info name="minValue" type="double">0.000000</info>
+							<info name="maxValue" type="double">100.000000</info>
+							<info name="bottom" type="double">0.000000</info>
+							<info name="top" type="double">100.000000</info>
+							<info name="unit" type="QString"></info>
+							<info name="color" type="QColor">0,0,255</info>
+							<info name="ratio" type="double">1.000000</info>
+							<info name="offset" type="double">0.000000</info>
+							<info name="startBit" type="int">7</info>
+							<info name="bitSize" type="int">8</info>
+							<info name="remark" type="QString"></info>
+						</Signal>
+					</Signals>
+				</Widget>
+			</Widgets>
+		</Panel>
+	</Panels>
+</Project>

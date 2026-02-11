@@ -1,0 +1,144 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.43.1.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: hku zqling97@outlook.com, hku, LIC=HN0AE-5HDGJ-III5V-PDQF6-N70GQ-QZR0E
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.43.0.0
+Toolchain Path:  C:\Users\zqlin\AppData\Local\Keil_v5\ARM\ARMCOMPLIER506\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.43.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      CMSIS_AGDI.dll V1.33.24.0
+Dialog DLL:      TCM.DLL V1.56.6.0
+ 
+<h2>Project:</h2>
+D:\HipRobotPC_Projects\Projects\STM32Projects\Hip_Robot\DualMuscleController_OS_FPGA_Master_DMA_Unfinished\MDK-ARM\DualMuscleController.uvprojx
+Project File Date:  02/11/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Users\zqlin\AppData\Local\Keil_v5\ARM\ARMCOMPLIER506\Bin'
+Build target 'DualMuscleController'
+compiling freertos.c...
+../HardwareDriver/MotorControl/MotorControl.h(33): warning:  #1-D: last line of file ends without a newline
+  void MotorRetCMDGen(void);
+../HardwareDriver/PID/pid.h(67): warning:  #1-D: last line of file ends without a newline
+   
+../HardwareDriver/IIR_FILTER/IIR.h(27): warning:  #1-D: last line of file ends without a newline
+  void Motor_arm_iir_f32_LP_Group2(void);
+../Inc/wit_IMU.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif /* __WIT_C_SDK_H */
+../Inc/ControllerIMU.h(31): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Inc/BandwidthTest.h(711): warning:  #1-D: last line of file ends without a newline
+  };
+../Src/freertos.c(533): warning:  #177-D: variable "Format0"  was declared but never referenced
+  	uint8_t Format0[]={"  B:Block  R:Ready  D:Del  S:Paused  X:Running \r\n"};
+../Src/freertos.c(590): warning:  #550-D: variable "curPositionIDX"  was set but never used
+  		uint16_t curPositionIDX=0;
+../Src/freertos.c(714): warning:  #177-D: variable "curPositionIDX"  was declared but never referenced
+  	uint16_t curPositionIDX=0;
+../Src/freertos.c(1023): warning:  #223-D: function "CAN_senddata" declared implicitly
+  			CAN_senddata(0x001,&ControlState[0],FDCAN_DLC_BYTES_2);
+../Src/freertos.c(1028): warning:  #223-D: function "CAN_senddata" declared implicitly
+  			CAN_senddata(0x001,&ControlState[0],FDCAN_DLC_BYTES_2);
+../Src/freertos.c(1043): warning:  #223-D: function "CAN_senddata" declared implicitly
+  		CAN_senddata(0x318,&CANTXmessage[0],FDCAN_DLC_BYTES_4);
+../Src/freertos.c(1203): warning:  #223-D: function "CAN_senddata" declared implicitly
+  		CAN_senddata(0x340,&CANTXmessage[0],FDCAN_DLC_BYTES_6);
+../Src/freertos.c(1014): warning:  #177-D: variable "int32_t_tempData"  was declared but never referenced
+  	int32_t int32_t_tempData=0;
+../Src/freertos.c(1369): warning:  #188-D: enumerated type mixed with another type
+  				osStatus status = osSemaphoreWait(Motor1RetStateHandle, osWaitForever);
+../Src/freertos.c(1391): warning:  #188-D: enumerated type mixed with another type
+  				osStatus status = osSemaphoreWait(Motor2RetStateHandle, osWaitForever);
+../Src/freertos.c(1540): warning:  #177-D: variable "temp"  was declared but never referenced
+      uint8_t  temp=0;
+../Src/freertos.c(330): warning:  #177-D: function "AutoScanSensor"  was declared but never referenced
+  static void AutoScanSensor(void);
+../Src/freertos.c(1624): warning:  #177-D: function "CmdProcess"  was declared but never referenced
+  static void CmdProcess(void)
+../Src/freertos.c: 19 warnings, 0 errors
+linking...
+Program Size: Code=63264 RO-data=2804 RW-data=1192 ZI-data=25728  
+FromELF: creating hex file...
+"DualMuscleController\DualMuscleController.axf" - 0 Error(s), 19 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.2.0.pack
+                ARM::CMSIS@6.2.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.1
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-DSP.1.16.2.pack
+                ARM::CMSIS-DSP@1.16.2
+                CMSIS Embedded Compute Library
+   * Component: DSP Variant: Source Version: 1.16.2
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32H7xx_DFP.4.1.1.pack
+                Keil::STM32H7xx_DFP@4.1.1
+                STMicroelectronics STM32H7 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_DualMuscleController
+  C:/Users/zqlin/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/Include
+  C:/Users/zqlin/AppData/Local/Arm/Packs/ARM/CMSIS-DSP/1.16.2/PrivateInclude
+  C:/Users/zqlin/AppData/Local/Arm/Packs/ARM/CMSIS/6.2.0/CMSIS/Core/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.1
+      Include file:  CMSIS/Core/Include/tz_context.h
+
+   * Component: ARM::CMSIS:DSP&Source@1.16.2
+      Source file:   Source/InterpolationFunctions/InterpolationFunctionsF16.c
+      Source file:   Source/BayesFunctions/BayesFunctionsF16.c
+      Source file:   Source/FastMathFunctions/FastMathFunctions.c
+      Source file:   Source/SVMFunctions/SVMFunctionsF16.c
+      Source file:   Source/InterpolationFunctions/InterpolationFunctions.c
+      Source file:   Source/FastMathFunctions/FastMathFunctionsF16.c
+      Source file:   Source/StatisticsFunctions/StatisticsFunctionsF16.c
+      Source file:   Source/BasicMathFunctions/BasicMathFunctionsF16.c
+      Source file:   Source/DistanceFunctions/DistanceFunctionsF16.c
+      Source file:   Source/CommonTables/CommonTables.c
+      Source file:   Source/SVMFunctions/SVMFunctions.c
+      Source file:   Source/ComplexMathFunctions/ComplexMathFunctions.c
+      Source file:   Source/FilteringFunctions/FilteringFunctions.c
+      Source file:   Source/WindowFunctions/WindowFunctions.c
+      Source file:   Source/TransformFunctions/TransformFunctionsF16.c
+      Source file:   Source/StatisticsFunctions/StatisticsFunctions.c
+      Source file:   Source/FilteringFunctions/FilteringFunctionsF16.c
+      Source file:   Source/CommonTables/CommonTablesF16.c
+      Source file:   Source/ControllerFunctions/ControllerFunctions.c
+      Source file:   Source/DistanceFunctions/DistanceFunctions.c
+      Source file:   Source/TransformFunctions/TransformFunctions.c
+      Source file:   Source/MatrixFunctions/MatrixFunctions.c
+      Source file:   Source/ComplexMathFunctions/ComplexMathFunctionsF16.c
+      Source file:   Source/MatrixFunctions/MatrixFunctionsF16.c
+      Source file:   Source/SupportFunctions/SupportFunctions.c
+      Source file:   Source/SupportFunctions/SupportFunctionsF16.c
+      Include file:  Include/arm_math_f16.h
+      Include file:  Include/arm_common_tables.h
+      Include file:  Include/arm_math.h
+      Source file:   Source/BayesFunctions/BayesFunctions.c
+      Include file:  Include/arm_common_tables_f16.h
+      Include file:  Include/arm_const_structs.h
+      Include file:  Include/arm_const_structs_f16.h
+      Source file:   Source/BasicMathFunctions/BasicMathFunctions.c
+      Source file:   Source/QuaternionMathFunctions/QuaternionMathFunctions.c
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>

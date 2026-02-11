@@ -1,0 +1,15 @@
+dualmusclecontroller\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
+dualmusclecontroller\timers.o: C:\Users\zqlin\AppData\Local\Keil_v5\ARM\ARMCOMPLIER506\Bin\..\include\stdlib.h
+dualmusclecontroller\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+dualmusclecontroller\timers.o: C:\Users\zqlin\AppData\Local\Keil_v5\ARM\ARMCOMPLIER506\Bin\..\include\stddef.h
+dualmusclecontroller\timers.o: C:\Users\zqlin\AppData\Local\Keil_v5\ARM\ARMCOMPLIER506\Bin\..\include\stdint.h
+dualmusclecontroller\timers.o: ../Inc/FreeRTOSConfig.h
+dualmusclecontroller\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+dualmusclecontroller\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+dualmusclecontroller\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+dualmusclecontroller\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+dualmusclecontroller\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+dualmusclecontroller\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+dualmusclecontroller\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+dualmusclecontroller\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+dualmusclecontroller\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
