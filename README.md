@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)> 
  
-
+中文版本  CHINESE Version
 
 ## 📖 简介 (Introduction)
 
@@ -106,6 +106,126 @@ HKU ATI 控制器预留了丰富的接口，支持高度的定制化扩展：
 ## 📄 许可证 (License)
 
 本项目采用 **Apache License 2.0** 许可证。详情请参阅 [LICENSE](LICENSE) 文件。
+
+
+英文版本 ENGLISH Version
+
+# HKU ATI Soft Exoskeleton Controller Firmware
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+## 📖 Introduction
+
+This project (`HipRobotProject_Basic_DMA`) provides the foundational firmware designed for the soft exoskeleton robot developed by **HKU ATI**.
+
+The code is engineered to provide robust low-level hardware support, specifically adapted for the HKU ATI custom controller and the FPGA motor drivers developed by the Shenzhen Institute of Artificial Intelligence and Robotics for Society (AIRS). This project implements basic functional testing, closed-loop motor control, and real-time data telemetry. It serves as the base platform for further development of advanced gait control algorithms or Human-in-the-loop optimization strategies.
+
+> **Note**: This repository contains low-level drivers and basic control logic. It **does not** include advanced gait planning or complex optimization algorithms.
+
+---
+
+## 🛠️ Hardware Setup
+
+The system utilizes a modular hardware design, featuring the HKU ATI custom main controller and high-performance FPGA motor drivers.
+
+### Core Components
+1.  **Main Controller**: HKU ATI Custom Development Board.
+2.  **Motor Driver**: FPGA 4-Axis Motor Driver developed by the Shenzhen Institute of Artificial Intelligence and Robotics for Society.
+
+### Connection Guide
+*   **Interface Standard**: DB15 Interface.
+*   **Wiring Method**: Pin-to-Pin direct connection (Pin 1 of the controller corresponds to Pin 1 of the driver, and so on).
+
+| Component | Description |
+| :--- | :---|
+| **Main Controller** | HKU ATI custom controller with integrated communication interfaces and analog circuits. |
+| **Motor Driver** | FPGA-based 4-channel motor driver solution.  |
+
+### Configuration & Debugging
+Before operation, please ensure the following hardware configurations are met:
+
+*   **Analog Circuit Adjustment**: The amplifier gain on the main controller needs adjustment.
+    *   *Recommended*: **2kΩ** gain resistor, adapted for **0-500N** load cells.
+*   **Debugging Interface**: Supports wireless **DAPLINK** for code flashing and online debugging.
+*   **IMU Configuration**:
+    *   Model: WitMotion WT901-485.
+    *   Telemetry Frequency: **25Hz**.
+*   **CAN Bus Analyzer**: Recommended to use ZLG USBCAN II+ or ZLG WIFI-CAN TCP for data monitoring.
+
+### Remote Control Operation
+The system is equipped with a dedicated remote controller for quick testing and mode switching (as shown in Figure 3).
+
+
+*   **Button A**: Current Mode - Forward Rotation
+*   **Button B**: Speed Mode - Reverse Rotation
+*   **Button C**: Emergency Stop
+*   **Button D**: Reset / Return to Home Position
+
+---
+
+## 💻 Software Architecture
+
+The firmware is built on **FreeRTOS V1**, ensuring real-time performance and stability for task scheduling. The core tasks and their corresponding entry functions are as follows:
+
+| Task Type | Function Name | Description |
+| :--- | :--- | :--- |
+| **Core Control** | `TSAxContollFUN` | Handles low-level motor control logic (e.g., PID calculation) and command transmission. Contains 2 internal motor control threads. |
+| **Data Decoding** | `MotorRXDecodeGxFUN` | Decodes encoder feedback data received from the FPGA drivers. |
+| **IMU Parsing** | `IMU_TaskFUN` | Dedicated to parsing attitude data from the WT901-485 IMU. |
+| **Telemetry** | `StateRETFUN` | Collects system state and packages data for transmission via CAN or UART. |
+
+Additionally, the system includes several Software Timers for auxiliary tasks. Specific configurations can be viewed and modified in the STM32CubeMX (`.ioc`) file.
+
+---
+
+## 🔌 Expansion Capabilities
+
+The HKU ATI controller reserves a rich set of interfaces to support high-level customization:
+
+### Interface Resources
+*   **2x RS422**: For connecting additional industrial-grade sensors.
+*   **1x RS485**: Default for connecting IMU arrays.
+*   **2x CAN BUS**:
+    *   CAN1: Data telemetry / Debugging.
+    *   CAN2: Connecting EMG sensors or other CAN devices.
+*   **2x Loadcell In**: Analog inputs for reading force sensor data (sensing driver output force).
+*   **1x UART I/O**: General-purpose serial communication.
+*   **3x GPIO I/O**: General-purpose I/O, usable for connecting remote control receivers or trigger signals.
+
+### System Potential
+Based on these interfaces, the system theoretically supports:
+1.  **8-Axis Motor Control**: By cascading 2 FPGA drivers, controlling up to 8 units of 16mm micro-motors.
+2.  **Full-Body Sensing**: Supports connection of up to 4 IMU modules.
+3.  **Force Interaction**: Implements force-position hybrid control using the 2 load cell interfaces.
+
+---
+
+## 🚀 Getting Started
+
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/justinling97/HipRobotProject_Basic_DMA.git
+    ```
+2.  Open the project using STM32CubeIDE or Keil MDK.
+3.  Connect the Wireless DAPLINK to the controller.
+4.  Compile and flash the firmware.
+5.  Open ZLG ZCANPro software to monitor the data stream.
+
+---
+
+## 📄 License
+
+This project is licensed under the **Apache License 2.0**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+**HKU ATI Lab**
+
+
+
+
+
+
 
 ---
 
