@@ -130,7 +130,7 @@ The system utilizes a modular hardware design, featuring the HKU ATI custom main
 
 ### Core Components
 1.  **Main Controller**: HKU ATI Custom Development Board.
-2.  **Motor Driver**: FPGA 4-Axis Motor Driver developed by the Shenzhen Institute of Artificial Intelligence and Robotics for Society.
+2.  **Motor Driver**: FPGA 4-Axis Motor Driver developed by the SZAR.
 
 ### Connection Guide
 *   **Interface Standard**: DB15 Interface.
